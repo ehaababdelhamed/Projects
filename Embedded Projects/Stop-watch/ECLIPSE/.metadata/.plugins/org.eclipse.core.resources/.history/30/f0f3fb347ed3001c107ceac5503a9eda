@@ -1,0 +1,138 @@
+/*
+ * MiniProject2.c
+ *
+ *  Created on: ???/???/????
+ *      Author: Ehab Mohamed
+ */
+
+#include <avr/io.h>
+#include <util/delay.h>
+#include <avr/interrupt.h>
+
+#define No_Of_Clocks_Per_Second 1000 /* 1 ms for each clock*/
+char second1 = 0, second2 = 0, min1 = 0, min2 = 0, hour1 = 0, hour2 = 0;
+char flag = 0;
+
+void Timer1(void) {
+	TCCR1A = (1 << FOC1A); /*non PMW Mode*/
+	TCCR1B = (1 << CS10) | (1 << WGM12) | (1 << CS12); /*clkI/O/1024 (From prescaler) and active CTC Mode*/
+	TCNT1 = 0;
+	OCR1A = No_Of_Clocks_Per_Second; /*Compare Match Value*/
+	TIMSK |= (1 << OCIE1A); /*Timer1 interrupt Enable */
+}
+
+ISR(TIMER1_COMPA_vect) {
+	/*set flag =1 every 1 second*/
+	flag = 1;
+
+}
+
+void INT0_init(void) {
+	/*interrupt with falling edge*/
+	MCUCR |= (1 << ISC01);
+	MCUCR &= ~(1 << ISC00);
+	GICR |= (1 << INT0); /*external interrupt 0 enable*/
+	DDRD &= ~(1 << PD2); /*pin 2 in PortD is input pin*/
+	PORTD |= (1 << PD2); /*enable internal pull up resistor */
+}
+
+ISR(INT0_vect) {
+	/*reset stop watch*/
+	second1 = 0;
+	second2 = 0;
+	min1 = 0;
+	min2 = 0;
+	hour1 = 0;
+	hour2 = 0;
+	Timer1();
+}
+
+void INT1_init() {
+	/*interrupt with rising edge*/
+	MCUCR |= (1 << ISC10) | (1 << ISC11);
+	GICR |= (1 << INT1); /*external interrupt 1 enable*/
+	DDRD &= ~(1 << PD3); /*pin 3 in PortD is input pin*/
+
+}
+
+ISR(INT1_vect) {
+	/*to pause stop watch*/
+	TCCR1B = 0;
+}
+
+void INT2_init(void) {
+	MCUCSR &= ~(1 << ISC2); /*interrupt with falling edge*/
+	GICR |= (1 << INT2); /*external interrupt 2 enable*/
+	DDRB &= ~(1 << PB2); /*pin 2 in PortB is input pin*/
+	PORTB |= (1 << PB2); /*enable internal pull up resistor */
+}
+
+ISR(INT2_vect) {
+	/*resume stop watch*/
+	Timer1();
+}
+
+int main(void) {
+	SREG |= (1 << 7); /*Global interrupt enable*/
+	Timer1();
+	INT0_init();
+	INT1_init();
+	INT2_init();
+	DDRC |= 0X0F; /*to make first 4 pins in portC output pins*/
+	DDRA |= 0X3F; /*to make first 6 pins in portA output pins*/
+	PORTC &= 0XF0;
+	PORTA |= 0X3F;
+	while (1) {
+		if (flag == 1) {
+			second1++;
+			if (second1 > 9) {
+				second2++;
+				second1 = 0;
+			}
+			if (second2 > 5) {
+				min1++;
+				second2 = 0;
+			}
+			if (min1 > 9) {
+				min2++;
+				min1 = 0;
+			}
+			if (min2 > 5) {
+				hour1++;
+				min2 = 0;
+			}
+			if (hour1 > 9) {
+				hour2++;
+				hour1 = 0;
+			}
+			if (hour2 > 5) {
+				hour2 = 0;
+			}
+			flag = 0;
+		}
+		/*active first 7-segement*/
+		PORTA = (PORTA & 0XC0) | 0X01;
+		PORTC = (PORTC & 0XF0) | (second1 & 0X0F);
+		_delay_ms(2);
+		/*active second 7-segement*/
+		PORTA = (PORTA & 0XC0) | 0X02;
+		PORTC = (PORTC & 0XF0) | (second2 & 0X0F);
+		_delay_ms(2);
+		/*active third 7-segement*/
+		PORTA = (PORTA & 0XC0) | 0X04;
+		PORTC = (PORTC & 0XF0) | (min1 & 0X0F);
+		_delay_ms(2);
+		/*active  fourth 7-segement*/
+		PORTA = (PORTA & 0XC0) | 0X08;
+		PORTC = (PORTC & 0XF0) | (min2 & 0X0F);
+		_delay_ms(2);
+		/*active fifth 7-segement*/
+		PORTA = (PORTA & 0XC0) | 0X10;
+		PORTC = (PORTC & 0XF0) | (hour1 & 0X0F);
+		_delay_ms(2);
+		/*active sixth 7-segement*/
+		PORTA = (PORTA & 0XC0) | 0X20;
+		PORTC = (PORTC & 0XF0) | (hour2 & 0X0F);
+		_delay_ms(2);
+	}
+}

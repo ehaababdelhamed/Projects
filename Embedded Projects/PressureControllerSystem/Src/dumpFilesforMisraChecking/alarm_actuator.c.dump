@@ -1,0 +1,453 @@
+<?xml version="1.0"?>
+<dumps>
+  <platform name="win64" char_bit="8" short_bit="16" int_bit="32" long_bit="32" long_long_bit="64" pointer_bit="64"/>
+  <rawtokens>
+    <file index="0" name="alarm_actuator.c"/>
+    <file index="1" name="alarm_actuator.h"/>
+    <file index="2" name="Platform_Types.h"/>
+    <file index="3" name="driver.h"/>
+    <file index="4" name="state.h"/>
+    <tok fileIndex="0" linenr="1" column="1" str="/******************************************************************************x * File Name: alarm_actuator.cx * Description: Source file for alarm actuator driverx * Author: Ehab Mohamed Abdelhamedx ******************************************************************************/"/>
+    <tok fileIndex="0" linenr="7" column="1" str="#"/>
+    <tok fileIndex="0" linenr="7" column="2" str="include"/>
+    <tok fileIndex="0" linenr="7" column="10" str="&quot;alarm_actuator.h&quot;"/>
+    <tok fileIndex="0" linenr="8" column="1" str="/******************************************************************************* *                         Module Global Variables                             * ******************************************************************************/"/>
+    <tok fileIndex="0" linenr="12" column="1" str="void"/>
+    <tok fileIndex="0" linenr="12" column="5" str="("/>
+    <tok fileIndex="0" linenr="12" column="6" str="*"/>
+    <tok fileIndex="0" linenr="12" column="7" str="AlarmActuator_state"/>
+    <tok fileIndex="0" linenr="12" column="26" str=")"/>
+    <tok fileIndex="0" linenr="12" column="27" str="("/>
+    <tok fileIndex="0" linenr="12" column="28" str=")"/>
+    <tok fileIndex="0" linenr="12" column="29" str="="/>
+    <tok fileIndex="0" linenr="12" column="30" str="STATE"/>
+    <tok fileIndex="0" linenr="12" column="35" str="("/>
+    <tok fileIndex="0" linenr="12" column="36" str="AlarmActuator_waiting"/>
+    <tok fileIndex="0" linenr="12" column="57" str=")"/>
+    <tok fileIndex="0" linenr="12" column="58" str=";"/>
+    <tok fileIndex="0" linenr="13" column="1" str="AlarmActuator_states_t"/>
+    <tok fileIndex="0" linenr="13" column="24" str="AlarmActuator_state_id"/>
+    <tok fileIndex="0" linenr="13" column="46" str="="/>
+    <tok fileIndex="0" linenr="13" column="47" str="AlarmActuator_waiting"/>
+    <tok fileIndex="0" linenr="13" column="68" str=";"/>
+    <tok fileIndex="0" linenr="15" column="1" str="/*******************************************************************************x *                              Functions Definition                           *x ******************************************************************************/"/>
+    <tok fileIndex="0" linenr="19" column="2" str="/************************************************************************************x * Function Name: AlarmStartx * Description: Signal to make alarm actuator in on statex ************************************************************************************/"/>
+    <tok fileIndex="0" linenr="24" column="1" str="void"/>
+    <tok fileIndex="0" linenr="24" column="6" str="AlarmStart"/>
+    <tok fileIndex="0" linenr="24" column="16" str="("/>
+    <tok fileIndex="0" linenr="24" column="17" str=")"/>
+    <tok fileIndex="0" linenr="24" column="18" str="{"/>
+    <tok fileIndex="0" linenr="25" column="2" str="AlarmActuator_state"/>
+    <tok fileIndex="0" linenr="25" column="21" str="="/>
+    <tok fileIndex="0" linenr="25" column="22" str="STATE"/>
+    <tok fileIndex="0" linenr="25" column="27" str="("/>
+    <tok fileIndex="0" linenr="25" column="28" str="AlarmActuator_alarmON"/>
+    <tok fileIndex="0" linenr="25" column="49" str=")"/>
+    <tok fileIndex="0" linenr="25" column="50" str=";"/>
+    <tok fileIndex="0" linenr="26" column="1" str="}"/>
+    <tok fileIndex="0" linenr="27" column="1" str="/************************************************************************************x * Function Name: AlarmStopx * Description: Signal to make alarm actuator in off statex ************************************************************************************/"/>
+    <tok fileIndex="0" linenr="32" column="1" str="void"/>
+    <tok fileIndex="0" linenr="32" column="6" str="AlarmStop"/>
+    <tok fileIndex="0" linenr="32" column="15" str="("/>
+    <tok fileIndex="0" linenr="32" column="16" str=")"/>
+    <tok fileIndex="0" linenr="32" column="17" str="{"/>
+    <tok fileIndex="0" linenr="33" column="2" str="AlarmActuator_state"/>
+    <tok fileIndex="0" linenr="33" column="21" str="="/>
+    <tok fileIndex="0" linenr="33" column="22" str="STATE"/>
+    <tok fileIndex="0" linenr="33" column="27" str="("/>
+    <tok fileIndex="0" linenr="33" column="28" str="AlarmActuator_alarmOFF"/>
+    <tok fileIndex="0" linenr="33" column="50" str=")"/>
+    <tok fileIndex="0" linenr="33" column="51" str=";"/>
+    <tok fileIndex="0" linenr="34" column="1" str="}"/>
+    <tok fileIndex="0" linenr="35" column="1" str="/************************************************************************************x * Function Name: AlarmActuator_initx * Description: Function to initailze actuator driverx ************************************************************************************/"/>
+    <tok fileIndex="0" linenr="40" column="1" str="void"/>
+    <tok fileIndex="0" linenr="40" column="6" str="AlarmActuator_init"/>
+    <tok fileIndex="0" linenr="40" column="24" str="("/>
+    <tok fileIndex="0" linenr="40" column="25" str=")"/>
+    <tok fileIndex="0" linenr="40" column="26" str="{"/>
+    <tok fileIndex="0" linenr="41" column="2" str="/*intialization*/"/>
+    <tok fileIndex="0" linenr="42" column="2" str="//intiatilze actuators by off (Active Low)"/>
+    <tok fileIndex="0" linenr="43" column="2" str="Set_Alarm_actuator"/>
+    <tok fileIndex="0" linenr="43" column="20" str="("/>
+    <tok fileIndex="0" linenr="43" column="21" str="TRUE"/>
+    <tok fileIndex="0" linenr="43" column="25" str=")"/>
+    <tok fileIndex="0" linenr="43" column="26" str=";"/>
+    <tok fileIndex="0" linenr="44" column="1" str="}"/>
+    <tok fileIndex="0" linenr="46" column="1" str="/************************************************************************************x * Function Name: STATE_AlarmActuator_waitingx * Description: waiting signal to actionx ************************************************************************************/"/>
+    <tok fileIndex="0" linenr="51" column="1" str="CREATE_STATE"/>
+    <tok fileIndex="0" linenr="51" column="13" str="("/>
+    <tok fileIndex="0" linenr="51" column="14" str="AlarmActuator_waiting"/>
+    <tok fileIndex="0" linenr="51" column="35" str=")"/>
+    <tok fileIndex="0" linenr="51" column="36" str="{"/>
+    <tok fileIndex="0" linenr="52" column="2" str="//State Name"/>
+    <tok fileIndex="0" linenr="53" column="2" str="AlarmActuator_state_id"/>
+    <tok fileIndex="0" linenr="53" column="24" str="="/>
+    <tok fileIndex="0" linenr="53" column="25" str="AlarmActuator_waiting"/>
+    <tok fileIndex="0" linenr="53" column="46" str=";"/>
+    <tok fileIndex="0" linenr="54" column="1" str="}"/>
+    <tok fileIndex="0" linenr="55" column="1" str="/************************************************************************************x * Function Name: STATE_AlarmActuator_alarmONx * Description: turn on alarm actuator then back to waiting statex ************************************************************************************/"/>
+    <tok fileIndex="0" linenr="60" column="1" str="CREATE_STATE"/>
+    <tok fileIndex="0" linenr="60" column="13" str="("/>
+    <tok fileIndex="0" linenr="60" column="14" str="AlarmActuator_alarmON"/>
+    <tok fileIndex="0" linenr="60" column="35" str=")"/>
+    <tok fileIndex="0" linenr="60" column="36" str="{"/>
+    <tok fileIndex="0" linenr="61" column="2" str="//State Name"/>
+    <tok fileIndex="0" linenr="62" column="2" str="AlarmActuator_state_id"/>
+    <tok fileIndex="0" linenr="62" column="24" str="="/>
+    <tok fileIndex="0" linenr="62" column="25" str="AlarmActuator_alarmON"/>
+    <tok fileIndex="0" linenr="62" column="46" str=";"/>
+    <tok fileIndex="0" linenr="63" column="2" str="//State action"/>
+    <tok fileIndex="0" linenr="64" column="2" str="Set_Alarm_actuator"/>
+    <tok fileIndex="0" linenr="64" column="20" str="("/>
+    <tok fileIndex="0" linenr="64" column="21" str="FALSE"/>
+    <tok fileIndex="0" linenr="64" column="26" str=")"/>
+    <tok fileIndex="0" linenr="64" column="27" str=";"/>
+    <tok fileIndex="0" linenr="65" column="2" str="AlarmActuator_state"/>
+    <tok fileIndex="0" linenr="65" column="21" str="="/>
+    <tok fileIndex="0" linenr="65" column="22" str="STATE"/>
+    <tok fileIndex="0" linenr="65" column="27" str="("/>
+    <tok fileIndex="0" linenr="65" column="28" str="AlarmActuator_waiting"/>
+    <tok fileIndex="0" linenr="65" column="49" str=")"/>
+    <tok fileIndex="0" linenr="65" column="50" str=";"/>
+    <tok fileIndex="0" linenr="67" column="1" str="}"/>
+    <tok fileIndex="0" linenr="68" column="1" str="/************************************************************************************x * Function Name: STATE_AlarmActuator_alarmOFFx * Description: turn off alarm actuator then back to waiting statex ************************************************************************************/"/>
+    <tok fileIndex="0" linenr="72" column="1" str="CREATE_STATE"/>
+    <tok fileIndex="0" linenr="72" column="13" str="("/>
+    <tok fileIndex="0" linenr="72" column="14" str="AlarmActuator_alarmOFF"/>
+    <tok fileIndex="0" linenr="72" column="36" str=")"/>
+    <tok fileIndex="0" linenr="72" column="37" str="{"/>
+    <tok fileIndex="0" linenr="73" column="2" str="//State Name"/>
+    <tok fileIndex="0" linenr="74" column="2" str="AlarmActuator_state_id"/>
+    <tok fileIndex="0" linenr="74" column="24" str="="/>
+    <tok fileIndex="0" linenr="74" column="25" str="AlarmActuator_alarmOFF"/>
+    <tok fileIndex="0" linenr="74" column="47" str=";"/>
+    <tok fileIndex="0" linenr="75" column="2" str="//State action"/>
+    <tok fileIndex="0" linenr="76" column="2" str="Set_Alarm_actuator"/>
+    <tok fileIndex="0" linenr="76" column="20" str="("/>
+    <tok fileIndex="0" linenr="76" column="21" str="TRUE"/>
+    <tok fileIndex="0" linenr="76" column="25" str=")"/>
+    <tok fileIndex="0" linenr="76" column="26" str=";"/>
+    <tok fileIndex="0" linenr="77" column="2" str="AlarmActuator_state"/>
+    <tok fileIndex="0" linenr="77" column="21" str="="/>
+    <tok fileIndex="0" linenr="77" column="22" str="STATE"/>
+    <tok fileIndex="0" linenr="77" column="27" str="("/>
+    <tok fileIndex="0" linenr="77" column="28" str="AlarmActuator_waiting"/>
+    <tok fileIndex="0" linenr="77" column="49" str=")"/>
+    <tok fileIndex="0" linenr="77" column="50" str=";"/>
+    <tok fileIndex="0" linenr="78" column="1" str="}"/>
+  </rawtokens>
+  <suppressions>
+  </suppressions>
+<dump cfg="">
+  <standards>
+    <c version="c11"/>
+    <cpp version="c++20"/>
+  </standards>
+  <directivelist>
+    <directive file="alarm_actuator.c" linenr="7" str="#include &quot;alarm_actuator.h&quot;"/>
+    <directive file="Platform_Types.h" linenr="11" str="#ifndef PLATFORM_TYPES_H_"/>
+    <directive file="Platform_Types.h" linenr="12" str="#define PLATFORM_TYPES_H_"/>
+    <directive file="Platform_Types.h" linenr="17" str="#define CPU_TYPE_8 (8u)"/>
+    <directive file="Platform_Types.h" linenr="18" str="#define CPU_TYPE_16 (16u)"/>
+    <directive file="Platform_Types.h" linenr="19" str="#define CPU_TYPE_32 (32u)"/>
+    <directive file="Platform_Types.h" linenr="22" str="#define LSB_FIRST (0u)"/>
+    <directive file="Platform_Types.h" linenr="23" str="#define MSB_FIRST (1u)"/>
+    <directive file="Platform_Types.h" linenr="26" str="#define LOW_BYTE_ORDER (0u)"/>
+    <directive file="Platform_Types.h" linenr="27" str="#define HIGH_BYTE_ORDER (1u)"/>
+    <directive file="Platform_Types.h" linenr="30" str="#define CPU_TYPE CPU_TYPE_32"/>
+    <directive file="Platform_Types.h" linenr="31" str="#define CPU_BIT_ORDER LSB_FIRST"/>
+    <directive file="Platform_Types.h" linenr="32" str="#define CPU_BYTE_ORDER LOW_BYTE_FIRST"/>
+    <directive file="Platform_Types.h" linenr="35" str="#ifndef TRUE"/>
+    <directive file="Platform_Types.h" linenr="36" str="#define TRUE (1u)"/>
+    <directive file="Platform_Types.h" linenr="37" str="#endif"/>
+    <directive file="Platform_Types.h" linenr="39" str="#ifndef FALSE"/>
+    <directive file="Platform_Types.h" linenr="40" str="#define FALSE (0u)"/>
+    <directive file="Platform_Types.h" linenr="41" str="#endif"/>
+    <directive file="Platform_Types.h" linenr="60" str="#endif"/>
+    <directive file="alarm_actuator.h" linenr="7" str="#ifndef ALARM_ACTUATOR_H_"/>
+    <directive file="alarm_actuator.h" linenr="8" str="#define ALARM_ACTUATOR_H_"/>
+    <directive file="alarm_actuator.h" linenr="10" str="#include &quot;Platform_Types.h&quot;"/>
+    <directive file="alarm_actuator.h" linenr="11" str="#include &quot;driver.h&quot;"/>
+    <directive file="alarm_actuator.h" linenr="12" str="#include &quot;state.h&quot;"/>
+    <directive file="alarm_actuator.h" linenr="37" str="#endif"/>
+    <directive file="driver.h" linenr="6" str="#include &lt;stdint.h&gt;"/>
+    <directive file="driver.h" linenr="8" str="#define SET_BIT(ADDRESS,BIT) (ADDRESS) |= (1&lt;&lt;(BIT))"/>
+    <directive file="driver.h" linenr="9" str="#define RESET_BIT(ADDRESS,BIT) (ADDRESS) &amp;= ~(1&lt;&lt;(BIT))"/>
+    <directive file="driver.h" linenr="10" str="#define TOGGLE_BIT(ADDRESS,BIT) (ADDRESS) ^= (1&lt;&lt;(BIT))"/>
+    <directive file="driver.h" linenr="11" str="#define READ_BIT(ADDRESS,BIT) (ADDRESS) &amp; (1&lt;&lt;(BIT))"/>
+    <directive file="driver.h" linenr="14" str="#define GPIO_PORTA 0x40010800"/>
+    <directive file="driver.h" linenr="15" str="#define BASE_RCC 0x40021000"/>
+    <directive file="driver.h" linenr="17" str="#define APB2ENR *(volatile uint32_t *)(BASE_RCC + 0x18)"/>
+    <directive file="driver.h" linenr="19" str="#define GPIOA_CRL *(volatile uint32_t *)(GPIO_PORTA + 0x00)"/>
+    <directive file="driver.h" linenr="20" str="#define GPIOA_CRH *(volatile uint32_t *)(GPIO_PORTA + 0X04)"/>
+    <directive file="driver.h" linenr="21" str="#define GPIOA_IDR *(volatile uint32_t *)(GPIO_PORTA + 0x08)"/>
+    <directive file="driver.h" linenr="22" str="#define GPIOA_ODR *(volatile uint32_t *)(GPIO_PORTA + 0x0C)"/>
+    <directive file="state.h" linenr="7" str="#ifndef STATE_H_"/>
+    <directive file="state.h" linenr="8" str="#define STATE_H_"/>
+    <directive file="state.h" linenr="13" str="#define CREATE_STATE(STATE_NAME) void STATE_##STATE_NAME()"/>
+    <directive file="state.h" linenr="14" str="#define STATE(STATE_NAME) STATE_##STATE_NAME"/>
+    <directive file="state.h" linenr="27" str="#endif"/>
+  </directivelist>
+  <tokenlist>
+    <token id="00000140FD3744B0" file="driver.h" linenr="25" column="1" str="void" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD258ED0" file="driver.h" linenr="25" column="6" str="Delay" scope="00000140FCE98590" type="name" function="00000140FD0E2200"/>
+    <token id="00000140FD2590B0" file="driver.h" linenr="25" column="11" str="(" scope="00000140FCE98590" link="00000140FD259890" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD259AD0" file="driver.h" linenr="25" column="12" str="int" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD259170" file="driver.h" linenr="25" column="16" str="nCount" scope="00000140FCE98590" type="name" varId="1" variable="00000140FD512120" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="00000140FD259890" file="driver.h" linenr="25" column="22" str=")" scope="00000140FCE98590" link="00000140FD2590B0"/>
+    <token id="00000140FD259230" file="driver.h" linenr="25" column="23" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD259710" file="driver.h" linenr="26" column="1" str="int" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD258F90" file="driver.h" linenr="26" column="5" str="getPressureVal" scope="00000140FCE98590" type="name" function="00000140FD0E2480"/>
+    <token id="00000140FD259050" file="driver.h" linenr="26" column="19" str="(" scope="00000140FCE98590" link="00000140FD259830" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="00000140FD259830" file="driver.h" linenr="26" column="20" str=")" scope="00000140FCE98590" link="00000140FD259050"/>
+    <token id="00000140FD2598F0" file="driver.h" linenr="26" column="21" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD258E10" file="driver.h" linenr="27" column="1" str="void" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD259530" file="driver.h" linenr="27" column="6" str="Set_Alarm_actuator" scope="00000140FCE98590" type="name" function="00000140FD0E2840"/>
+    <token id="00000140FD259590" file="driver.h" linenr="27" column="24" str="(" scope="00000140FCE98590" link="00000140FD259770" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD259290" file="driver.h" linenr="27" column="25" str="int" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD2592F0" file="driver.h" linenr="27" column="29" str="i" scope="00000140FCE98590" type="name" varId="2" variable="00000140FD5117F0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="00000140FD259770" file="driver.h" linenr="27" column="30" str=")" scope="00000140FCE98590" link="00000140FD259590"/>
+    <token id="00000140FD2596B0" file="driver.h" linenr="27" column="31" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD259350" file="driver.h" linenr="28" column="1" str="void" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD259110" file="driver.h" linenr="28" column="6" str="GPIO_INITIALIZATION" scope="00000140FCE98590" type="name" function="00000140FD0E28E0"/>
+    <token id="00000140FD259BF0" file="driver.h" linenr="28" column="26" str="(" scope="00000140FCE98590" link="00000140FD259650" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD259650" file="driver.h" linenr="28" column="27" str=")" scope="00000140FCE98590" link="00000140FD259BF0"/>
+    <token id="00000140FD258F30" file="driver.h" linenr="28" column="28" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD259B90" file="state.h" linenr="19" column="1" str="void" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD258FF0" file="state.h" linenr="19" column="6" str="GetPressureValue" scope="00000140FCE98590" type="name" function="00000140FD0E2980"/>
+    <token id="00000140FD259C50" file="state.h" linenr="19" column="22" str="(" scope="00000140FCE98590" link="00000140FD2595F0" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD2597D0" file="state.h" linenr="19" column="23" str="int" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD2593B0" file="state.h" linenr="19" column="27" str="Pval" scope="00000140FCE98590" type="name" varId="3" variable="00000140FD511A90" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="00000140FD2595F0" file="state.h" linenr="19" column="31" str=")" scope="00000140FCE98590" link="00000140FD259C50"/>
+    <token id="00000140FD259950" file="state.h" linenr="19" column="32" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD259CB0" file="state.h" linenr="20" column="1" str="void" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD2599B0" file="state.h" linenr="20" column="6" str="AlarmMointorTurnON" scope="00000140FCE98590" type="name" function="00000140FD0E2CA0"/>
+    <token id="00000140FD258DB0" file="state.h" linenr="20" column="24" str="(" scope="00000140FCE98590" link="00000140FD259A10" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD259A10" file="state.h" linenr="20" column="25" str=")" scope="00000140FCE98590" link="00000140FD258DB0"/>
+    <token id="00000140FD259A70" file="state.h" linenr="20" column="26" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD259B30" file="state.h" linenr="21" column="1" str="void" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD259410" file="state.h" linenr="21" column="6" str="AlarmStart" scope="00000140FCE98590" type="name" function="00000140FD0E2A20"/>
+    <token id="00000140FD259470" file="state.h" linenr="21" column="16" str="(" scope="00000140FCE98590" link="00000140FD258E70" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD258E70" file="state.h" linenr="21" column="17" str=")" scope="00000140FCE98590" link="00000140FD259470"/>
+    <token id="00000140FD88C1F0" file="state.h" linenr="21" column="18" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD88D450" file="state.h" linenr="22" column="1" str="void" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD88CEB0" file="state.h" linenr="22" column="6" str="AlarmStop" scope="00000140FCE98590" type="name" function="00000140FD0E2D40"/>
+    <token id="00000140FD88C070" file="state.h" linenr="22" column="15" str="(" scope="00000140FCE98590" link="00000140FD88C970" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD88C970" file="state.h" linenr="22" column="16" str=")" scope="00000140FCE98590" link="00000140FD88C070"/>
+    <token id="00000140FD88D7B0" file="state.h" linenr="22" column="17" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD88D5D0" file="alarm_actuator.h" linenr="16" column="1" str="extern" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD88D4B0" file="alarm_actuator.h" linenr="16" column="8" str="void" scope="00000140FCE98590" type="name" astParent="00000140FD88D0F0"/>
+    <token id="00000140FD88D0F0" file="alarm_actuator.h" linenr="16" column="12" str="(" scope="00000140FCE98590" link="00000140FD88C250" astParent="00000140FD3747B0" astOperand1="00000140FD88D4B0" astOperand2="00000140FD88C130" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD88C130" file="alarm_actuator.h" linenr="16" column="13" str="*" scope="00000140FCE98590" type="op" isArithmeticalOp="true" astParent="00000140FD88D0F0" astOperand1="00000140FD88C190" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD88C190" file="alarm_actuator.h" linenr="16" column="14" str="AlarmActuator_state" scope="00000140FCE98590" type="name" varId="4" variable="00000140FD511710" astParent="00000140FD88C130" valueType-type="void" valueType-pointer="1" valueType-reference="None"/>
+    <token id="00000140FD88C250" file="alarm_actuator.h" linenr="16" column="33" str=")" scope="00000140FCE98590" link="00000140FD88D0F0"/>
+    <token id="00000140FD3747B0" file="alarm_actuator.h" linenr="16" column="0" str="(" scope="00000140FCE98590" link="00000140FD374C30" astOperand1="00000140FD88D0F0"/>
+    <token id="00000140FD374C30" file="alarm_actuator.h" linenr="16" column="0" str=")" scope="00000140FCE98590" link="00000140FD3747B0"/>
+    <token id="00000140FD88D630" file="alarm_actuator.h" linenr="16" column="36" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD88D030" file="alarm_actuator.h" linenr="21" column="9" str="enum" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD374E10" file="alarm_actuator.h" linenr="21" column="0" str="AlarmActuator_states_t" scope="00000140FCE98590" type="name" type-scope="00000140FCE97D10"/>
+    <token id="00000140FD88C490" file="alarm_actuator.h" linenr="21" column="13" str="{" scope="00000140FCE97D10" link="00000140FD88D3F0"/>
+    <token id="00000140FD88C310" file="alarm_actuator.h" linenr="22" column="2" str="AlarmActuator_waiting" scope="00000140FCE97D10" type="name" values="00000140FCF01240" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE97D10"/>
+    <token id="00000140FD88D690" file="alarm_actuator.h" linenr="22" column="23" str="," scope="00000140FCE97D10"/>
+    <token id="00000140FD88C670" file="alarm_actuator.h" linenr="22" column="24" str="AlarmActuator_alarmON" scope="00000140FCE97D10" type="name" values="00000140FCF01000" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE97D10"/>
+    <token id="00000140FD88C370" file="alarm_actuator.h" linenr="22" column="45" str="," scope="00000140FCE97D10"/>
+    <token id="00000140FD88C9D0" file="alarm_actuator.h" linenr="22" column="46" str="AlarmActuator_alarmOFF" scope="00000140FCE97D10" type="name" values="00000140FCF01300" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE97D10"/>
+    <token id="00000140FD88D3F0" file="alarm_actuator.h" linenr="23" column="1" str="}" scope="00000140FCE97D10" link="00000140FD88C490"/>
+    <token id="00000140FD374990" file="alarm_actuator.h" linenr="23" column="0" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD374A50" file="alarm_actuator.h" linenr="29" column="1" str="void" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD88C550" file="alarm_actuator.h" linenr="29" column="6" str="AlarmActuator_init" scope="00000140FCE98590" type="name" function="00000140FD2518E0"/>
+    <token id="00000140FD88C430" file="alarm_actuator.h" linenr="29" column="24" str="(" scope="00000140FCE98590" link="00000140FD88C3D0" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD88C3D0" file="alarm_actuator.h" linenr="29" column="25" str=")" scope="00000140FCE98590" link="00000140FD88C430"/>
+    <token id="00000140FD88D1B0" file="alarm_actuator.h" linenr="29" column="26" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD88CFD0" file="alarm_actuator.h" linenr="31" column="1" str="void" scope="00000140FCE98590" type="name" isExpandedMacro="true"/>
+    <token id="00000140FD88D6F0" file="alarm_actuator.h" linenr="31" column="1" str="STATE_AlarmActuator_waiting" scope="00000140FCE98590" type="name" function="00000140FD250DA0"/>
+    <token id="00000140FD88D510" file="alarm_actuator.h" linenr="31" column="1" str="(" scope="00000140FCE98590" isExpandedMacro="true" link="00000140FD88D210" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD88D210" file="alarm_actuator.h" linenr="31" column="1" str=")" scope="00000140FCE98590" isExpandedMacro="true" link="00000140FD88D510"/>
+    <token id="00000140FD88D810" file="alarm_actuator.h" linenr="31" column="36" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD88D750" file="alarm_actuator.h" linenr="33" column="1" str="void" scope="00000140FCE98590" type="name" isExpandedMacro="true"/>
+    <token id="00000140FD88D150" file="alarm_actuator.h" linenr="33" column="1" str="STATE_AlarmActuator_alarmON" scope="00000140FCE98590" type="name" function="00000140FD251480"/>
+    <token id="00000140FD88C4F0" file="alarm_actuator.h" linenr="33" column="1" str="(" scope="00000140FCE98590" isExpandedMacro="true" link="00000140FD88C5B0" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD88C5B0" file="alarm_actuator.h" linenr="33" column="1" str=")" scope="00000140FCE98590" isExpandedMacro="true" link="00000140FD88C4F0"/>
+    <token id="00000140FD88D570" file="alarm_actuator.h" linenr="33" column="36" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD88C610" file="alarm_actuator.h" linenr="35" column="1" str="void" scope="00000140FCE98590" type="name" isExpandedMacro="true"/>
+    <token id="00000140FD88C6D0" file="alarm_actuator.h" linenr="35" column="1" str="STATE_AlarmActuator_alarmOFF" scope="00000140FCE98590" type="name" function="00000140FD251160"/>
+    <token id="00000140FD88C0D0" file="alarm_actuator.h" linenr="35" column="1" str="(" scope="00000140FCE98590" isExpandedMacro="true" link="00000140FD88D270" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD88D270" file="alarm_actuator.h" linenr="35" column="1" str=")" scope="00000140FCE98590" isExpandedMacro="true" link="00000140FD88C0D0"/>
+    <token id="00000140FD88D2D0" file="alarm_actuator.h" linenr="35" column="37" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD88C730" file="alarm_actuator.c" linenr="12" column="1" str="void" scope="00000140FCE98590" type="name" astParent="00000140FD88C790"/>
+    <token id="00000140FD88C790" file="alarm_actuator.c" linenr="12" column="5" str="(" scope="00000140FCE98590" link="00000140FD88D390" astParent="00000140FD374C90" astOperand1="00000140FD88C730" astOperand2="00000140FD88D330" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD88D330" file="alarm_actuator.c" linenr="12" column="6" str="*" scope="00000140FCE98590" type="op" isArithmeticalOp="true" astParent="00000140FD88C790" astOperand1="00000140FD88C7F0" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD88C7F0" file="alarm_actuator.c" linenr="12" column="7" str="AlarmActuator_state" scope="00000140FCE98590" type="name" varId="5" variable="00000140FD511780" astParent="00000140FD88D330" valueType-type="void" valueType-pointer="1" valueType-reference="None"/>
+    <token id="00000140FD88D390" file="alarm_actuator.c" linenr="12" column="26" str=")" scope="00000140FCE98590" link="00000140FD88C790"/>
+    <token id="00000140FD374C90" file="alarm_actuator.c" linenr="12" column="0" str="(" scope="00000140FCE98590" link="00000140FD374E70" astOperand1="00000140FD88C790"/>
+    <token id="00000140FD374E70" file="alarm_actuator.c" linenr="12" column="0" str=")" scope="00000140FCE98590" link="00000140FD374C90"/>
+    <token id="00000140FD88E9E0" file="alarm_actuator.c" linenr="12" column="0" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD88EA40" file="alarm_actuator.c" linenr="12" column="0" str="AlarmActuator_state" scope="00000140FCE98590" type="name" varId="5" variable="00000140FD511780" astParent="00000140FD88C910" valueType-type="void" valueType-pointer="1" valueType-reference="None"/>
+    <token id="00000140FD88C910" file="alarm_actuator.c" linenr="12" column="29" str="=" scope="00000140FCE98590" type="op" isAssignmentOp="true" astOperand1="00000140FD88EA40" astOperand2="00000140FD88CAF0" valueType-type="void" valueType-pointer="1" valueType-reference="None"/>
+    <token id="00000140FD88CAF0" file="alarm_actuator.c" linenr="12" column="30" str="STATE_AlarmActuator_waiting" scope="00000140FCE98590" type="name" astParent="00000140FD88C910"/>
+    <token id="00000140FD88CB50" file="alarm_actuator.c" linenr="12" column="58" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD88CBB0" file="alarm_actuator.c" linenr="13" column="1" str="AlarmActuator_states_t" scope="00000140FCE98590" type="name" type-scope="00000140FCE97D10"/>
+    <token id="00000140FD88CC70" file="alarm_actuator.c" linenr="13" column="24" str="AlarmActuator_state_id" scope="00000140FCE98590" type="name" varId="6" variable="00000140FD512F20" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE97D10"/>
+    <token id="00000140FD88CCD0" file="alarm_actuator.c" linenr="13" column="46" str=";" scope="00000140FCE98590" isSplittedVarDeclEq="true"/>
+    <token id="00000140FD88F880" file="alarm_actuator.c" linenr="13" column="24" str="AlarmActuator_state_id" scope="00000140FCE98590" type="name" varId="6" variable="00000140FD512F20" astParent="00000140FD88FF40" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE97D10"/>
+    <token id="00000140FD88FF40" file="alarm_actuator.c" linenr="13" column="46" str="=" scope="00000140FCE98590" type="op" isAssignmentOp="true" astOperand1="00000140FD88F880" astOperand2="00000140FD88CD30" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE97D10"/>
+    <token id="00000140FD88CD30" file="alarm_actuator.c" linenr="13" column="47" str="AlarmActuator_waiting" scope="00000140FCE98590" type="name" values="00000140FCF01420" astParent="00000140FD88FF40" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE97D10"/>
+    <token id="00000140FD88CD90" file="alarm_actuator.c" linenr="13" column="68" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD88CDF0" file="alarm_actuator.c" linenr="24" column="1" str="void" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD88CF10" file="alarm_actuator.c" linenr="24" column="6" str="AlarmStart" scope="00000140FCE98590" type="name" function="00000140FD0E2A20"/>
+    <token id="00000140FD88CF70" file="alarm_actuator.c" linenr="24" column="16" str="(" scope="00000140FCE98590" link="00000140FD88DDB0" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD88DDB0" file="alarm_actuator.c" linenr="24" column="17" str=")" scope="00000140FCE98590" link="00000140FD88CF70"/>
+    <token id="00000140FD88DF90" file="alarm_actuator.c" linenr="24" column="18" str="{" scope="00000140FCE988C0" link="00000140FD88DC30"/>
+    <token id="00000140FD88DA50" file="alarm_actuator.c" linenr="25" column="2" str="AlarmActuator_state" scope="00000140FCE988C0" type="name" varId="5" variable="00000140FD511780" astParent="00000140FD88DB10" valueType-type="void" valueType-pointer="1" valueType-reference="None"/>
+    <token id="00000140FD88DB10" file="alarm_actuator.c" linenr="25" column="21" str="=" scope="00000140FCE988C0" type="op" isAssignmentOp="true" astOperand1="00000140FD88DA50" astOperand2="00000140FD88D990" valueType-type="void" valueType-pointer="1" valueType-reference="None"/>
+    <token id="00000140FD88D990" file="alarm_actuator.c" linenr="25" column="22" str="STATE_AlarmActuator_alarmON" scope="00000140FCE988C0" type="name" astParent="00000140FD88DB10"/>
+    <token id="00000140FD88DAB0" file="alarm_actuator.c" linenr="25" column="50" str=";" scope="00000140FCE988C0"/>
+    <token id="00000140FD88DC30" file="alarm_actuator.c" linenr="26" column="1" str="}" scope="00000140FCE988C0" link="00000140FD88DF90"/>
+    <token id="00000140FD88DBD0" file="alarm_actuator.c" linenr="32" column="1" str="void" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD88DCF0" file="alarm_actuator.c" linenr="32" column="6" str="AlarmStop" scope="00000140FCE98590" type="name" function="00000140FD0E2D40"/>
+    <token id="00000140FD88DD50" file="alarm_actuator.c" linenr="32" column="15" str="(" scope="00000140FCE98590" link="00000140FD88DE10" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD88DE10" file="alarm_actuator.c" linenr="32" column="16" str=")" scope="00000140FCE98590" link="00000140FD88DD50"/>
+    <token id="00000140FD88D9F0" file="alarm_actuator.c" linenr="32" column="17" str="{" scope="00000140FCE97AF0" link="00000140FD88DC90"/>
+    <token id="00000140FD88D870" file="alarm_actuator.c" linenr="33" column="2" str="AlarmActuator_state" scope="00000140FCE97AF0" type="name" varId="5" variable="00000140FD511780" astParent="00000140FD88DB70" valueType-type="void" valueType-pointer="1" valueType-reference="None"/>
+    <token id="00000140FD88DB70" file="alarm_actuator.c" linenr="33" column="21" str="=" scope="00000140FCE97AF0" type="op" isAssignmentOp="true" astOperand1="00000140FD88D870" astOperand2="00000140FD88DE70" valueType-type="void" valueType-pointer="1" valueType-reference="None"/>
+    <token id="00000140FD88DE70" file="alarm_actuator.c" linenr="33" column="22" str="STATE_AlarmActuator_alarmOFF" scope="00000140FCE97AF0" type="name" astParent="00000140FD88DB70"/>
+    <token id="00000140FD88D8D0" file="alarm_actuator.c" linenr="33" column="51" str=";" scope="00000140FCE97AF0"/>
+    <token id="00000140FD88DC90" file="alarm_actuator.c" linenr="34" column="1" str="}" scope="00000140FCE97AF0" link="00000140FD88D9F0"/>
+    <token id="00000140FD88DED0" file="alarm_actuator.c" linenr="40" column="1" str="void" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD88DF30" file="alarm_actuator.c" linenr="40" column="6" str="AlarmActuator_init" scope="00000140FCE98590" type="name" function="00000140FD2518E0"/>
+    <token id="00000140FD88D930" file="alarm_actuator.c" linenr="40" column="24" str="(" scope="00000140FCE98590" link="00000140FD88F5E0" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD88F5E0" file="alarm_actuator.c" linenr="40" column="25" str=")" scope="00000140FCE98590" link="00000140FD88D930"/>
+    <token id="00000140FD88F2E0" file="alarm_actuator.c" linenr="40" column="26" str="{" scope="00000140FCE986A0" link="00000140FD88F6A0"/>
+    <token id="00000140FD88E8C0" file="alarm_actuator.c" linenr="43" column="2" str="Set_Alarm_actuator" scope="00000140FCE986A0" type="name" function="00000140FD0E2840" astParent="00000140FD88EBC0"/>
+    <token id="00000140FD88EBC0" file="alarm_actuator.c" linenr="43" column="20" str="(" scope="00000140FCE986A0" link="00000140FD88F520" astOperand1="00000140FD88E8C0" astOperand2="00000140FD88EB00" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD88EB00" file="alarm_actuator.c" linenr="43" column="21" str="1u" scope="00000140FCE986A0" type="number" isInt="true" isExpandedMacro="true" values="00000140FCF010A0" astParent="00000140FD88EBC0" valueType-type="int" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="00000140FD88F520" file="alarm_actuator.c" linenr="43" column="25" str=")" scope="00000140FCE986A0" link="00000140FD88EBC0"/>
+    <token id="00000140FD88E320" file="alarm_actuator.c" linenr="43" column="26" str=";" scope="00000140FCE986A0"/>
+    <token id="00000140FD88F6A0" file="alarm_actuator.c" linenr="44" column="1" str="}" scope="00000140FCE986A0" link="00000140FD88F2E0"/>
+    <token id="00000140FD88F7C0" file="alarm_actuator.c" linenr="51" column="1" str="void" scope="00000140FCE98590" type="name" isExpandedMacro="true"/>
+    <token id="00000140FD88ED40" file="alarm_actuator.c" linenr="51" column="1" str="STATE_AlarmActuator_waiting" scope="00000140FCE98590" type="name" function="00000140FD250DA0"/>
+    <token id="00000140FD88E4A0" file="alarm_actuator.c" linenr="51" column="1" str="(" scope="00000140FCE98590" isExpandedMacro="true" link="00000140FD88F700" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD88F700" file="alarm_actuator.c" linenr="51" column="1" str=")" scope="00000140FCE98590" isExpandedMacro="true" link="00000140FD88E4A0"/>
+    <token id="00000140FD88EC20" file="alarm_actuator.c" linenr="51" column="36" str="{" scope="00000140FCE98150" link="00000140FD88E7A0"/>
+    <token id="00000140FD88EAA0" file="alarm_actuator.c" linenr="53" column="2" str="AlarmActuator_state_id" scope="00000140FCE98150" type="name" varId="6" variable="00000140FD512F20" astParent="00000140FD88E500" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE97D10"/>
+    <token id="00000140FD88E500" file="alarm_actuator.c" linenr="53" column="24" str="=" scope="00000140FCE98150" type="op" isAssignmentOp="true" astOperand1="00000140FD88EAA0" astOperand2="00000140FD88E200" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE97D10"/>
+    <token id="00000140FD88E200" file="alarm_actuator.c" linenr="53" column="25" str="AlarmActuator_waiting" scope="00000140FCE98150" type="name" values="00000140FCF01140" astParent="00000140FD88E500" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE97D10"/>
+    <token id="00000140FD88F1C0" file="alarm_actuator.c" linenr="53" column="46" str=";" scope="00000140FCE98150"/>
+    <token id="00000140FD88E7A0" file="alarm_actuator.c" linenr="54" column="1" str="}" scope="00000140FCE98150" link="00000140FD88EC20"/>
+    <token id="00000140FD88EF80" file="alarm_actuator.c" linenr="60" column="1" str="void" scope="00000140FCE98590" type="name" isExpandedMacro="true"/>
+    <token id="00000140FD88EF20" file="alarm_actuator.c" linenr="60" column="1" str="STATE_AlarmActuator_alarmON" scope="00000140FCE98590" type="name" function="00000140FD251480"/>
+    <token id="00000140FD88F100" file="alarm_actuator.c" linenr="60" column="1" str="(" scope="00000140FCE98590" isExpandedMacro="true" link="00000140FD88F220" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD88F220" file="alarm_actuator.c" linenr="60" column="1" str=")" scope="00000140FCE98590" isExpandedMacro="true" link="00000140FD88F100"/>
+    <token id="00000140FD88E140" file="alarm_actuator.c" linenr="60" column="36" str="{" scope="00000140FCE98040" link="00000140FD88F0A0"/>
+    <token id="00000140FD88EC80" file="alarm_actuator.c" linenr="62" column="2" str="AlarmActuator_state_id" scope="00000140FCE98040" type="name" varId="6" variable="00000140FD512F20" astParent="00000140FD88ECE0" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE97D10"/>
+    <token id="00000140FD88ECE0" file="alarm_actuator.c" linenr="62" column="24" str="=" scope="00000140FCE98040" type="op" isAssignmentOp="true" astOperand1="00000140FD88EC80" astOperand2="00000140FD88EDA0" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE97D10"/>
+    <token id="00000140FD88EDA0" file="alarm_actuator.c" linenr="62" column="25" str="AlarmActuator_alarmON" scope="00000140FCE98040" type="name" values="00000140FCF015A0" astParent="00000140FD88ECE0" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE97D10"/>
+    <token id="00000140FD88EFE0" file="alarm_actuator.c" linenr="62" column="46" str=";" scope="00000140FCE98040"/>
+    <token id="00000140FD88F640" file="alarm_actuator.c" linenr="64" column="2" str="Set_Alarm_actuator" scope="00000140FCE98040" type="name" function="00000140FD0E2840" astParent="00000140FD88EB60"/>
+    <token id="00000140FD88EB60" file="alarm_actuator.c" linenr="64" column="20" str="(" scope="00000140FCE98040" link="00000140FD88E380" astOperand1="00000140FD88F640" astOperand2="00000140FD88F760" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD88F760" file="alarm_actuator.c" linenr="64" column="21" str="0u" scope="00000140FCE98040" type="number" isInt="true" isExpandedMacro="true" values="00000140FCF00F00" astParent="00000140FD88EB60" valueType-type="int" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="00000140FD88E380" file="alarm_actuator.c" linenr="64" column="26" str=")" scope="00000140FCE98040" link="00000140FD88EB60"/>
+    <token id="00000140FD88F820" file="alarm_actuator.c" linenr="64" column="27" str=";" scope="00000140FCE98040"/>
+    <token id="00000140FD88E3E0" file="alarm_actuator.c" linenr="65" column="2" str="AlarmActuator_state" scope="00000140FCE98040" type="name" varId="5" variable="00000140FD511780" astParent="00000140FD88E080" valueType-type="void" valueType-pointer="1" valueType-reference="None"/>
+    <token id="00000140FD88E080" file="alarm_actuator.c" linenr="65" column="21" str="=" scope="00000140FCE98040" type="op" isAssignmentOp="true" astOperand1="00000140FD88E3E0" astOperand2="00000140FD88EEC0" valueType-type="void" valueType-pointer="1" valueType-reference="None"/>
+    <token id="00000140FD88EEC0" file="alarm_actuator.c" linenr="65" column="22" str="STATE_AlarmActuator_waiting" scope="00000140FCE98040" type="name" astParent="00000140FD88E080"/>
+    <token id="00000140FD88F040" file="alarm_actuator.c" linenr="65" column="50" str=";" scope="00000140FCE98040"/>
+    <token id="00000140FD88F0A0" file="alarm_actuator.c" linenr="67" column="1" str="}" scope="00000140FCE98040" link="00000140FD88E140"/>
+    <token id="00000140FD88E0E0" file="alarm_actuator.c" linenr="72" column="1" str="void" scope="00000140FCE98590" type="name" isExpandedMacro="true"/>
+    <token id="00000140FD88F160" file="alarm_actuator.c" linenr="72" column="1" str="STATE_AlarmActuator_alarmOFF" scope="00000140FCE98590" type="name" function="00000140FD251160"/>
+    <token id="00000140FD88E1A0" file="alarm_actuator.c" linenr="72" column="1" str="(" scope="00000140FCE98590" isExpandedMacro="true" link="00000140FD88F280" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD88F280" file="alarm_actuator.c" linenr="72" column="1" str=")" scope="00000140FCE98590" isExpandedMacro="true" link="00000140FD88E1A0"/>
+    <token id="00000140FD88F340" file="alarm_actuator.c" linenr="72" column="37" str="{" scope="00000140FCE98370" link="00000140FD88E980"/>
+    <token id="00000140FD88E260" file="alarm_actuator.c" linenr="74" column="2" str="AlarmActuator_state_id" scope="00000140FCE98370" type="name" varId="6" variable="00000140FD512F20" astParent="00000140FD88E440" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE97D10"/>
+    <token id="00000140FD88E440" file="alarm_actuator.c" linenr="74" column="24" str="=" scope="00000140FCE98370" type="op" isAssignmentOp="true" astOperand1="00000140FD88E260" astOperand2="00000140FD88E560" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE97D10"/>
+    <token id="00000140FD88E560" file="alarm_actuator.c" linenr="74" column="25" str="AlarmActuator_alarmOFF" scope="00000140FCE98370" type="name" values="00000140FCF010C0" astParent="00000140FD88E440" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE97D10"/>
+    <token id="00000140FD88F3A0" file="alarm_actuator.c" linenr="74" column="47" str=";" scope="00000140FCE98370"/>
+    <token id="00000140FD88F400" file="alarm_actuator.c" linenr="76" column="2" str="Set_Alarm_actuator" scope="00000140FCE98370" type="name" function="00000140FD0E2840" astParent="00000140FD88E800"/>
+    <token id="00000140FD88E800" file="alarm_actuator.c" linenr="76" column="20" str="(" scope="00000140FCE98370" link="00000140FD88E5C0" astOperand1="00000140FD88F400" astOperand2="00000140FD88F4C0" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD88F4C0" file="alarm_actuator.c" linenr="76" column="21" str="1u" scope="00000140FCE98370" type="number" isInt="true" isExpandedMacro="true" values="00000140FCF01560" astParent="00000140FD88E800" valueType-type="int" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="00000140FD88E5C0" file="alarm_actuator.c" linenr="76" column="25" str=")" scope="00000140FCE98370" link="00000140FD88E800"/>
+    <token id="00000140FD88E620" file="alarm_actuator.c" linenr="76" column="26" str=";" scope="00000140FCE98370"/>
+    <token id="00000140FD88E680" file="alarm_actuator.c" linenr="77" column="2" str="AlarmActuator_state" scope="00000140FCE98370" type="name" varId="5" variable="00000140FD511780" astParent="00000140FD88E6E0" valueType-type="void" valueType-pointer="1" valueType-reference="None"/>
+    <token id="00000140FD88E6E0" file="alarm_actuator.c" linenr="77" column="21" str="=" scope="00000140FCE98370" type="op" isAssignmentOp="true" astOperand1="00000140FD88E680" astOperand2="00000140FD88E860" valueType-type="void" valueType-pointer="1" valueType-reference="None"/>
+    <token id="00000140FD88E860" file="alarm_actuator.c" linenr="77" column="22" str="STATE_AlarmActuator_waiting" scope="00000140FCE98370" type="name" astParent="00000140FD88E6E0"/>
+    <token id="00000140FD88E920" file="alarm_actuator.c" linenr="77" column="50" str=";" scope="00000140FCE98370"/>
+    <token id="00000140FD88E980" file="alarm_actuator.c" linenr="78" column="1" str="}" scope="00000140FCE98370" link="00000140FD88F340"/>
+  </tokenlist>
+  <scopes>
+    <scope id="00000140FCE98590" type="Global">
+      <functionList>
+        <function id="00000140FD0E2200" tokenDef="00000140FD258ED0" name="Delay" type="Function">
+          <arg nr="1" variable="00000140FD512120"/>
+        </function>
+        <function id="00000140FD0E2480" tokenDef="00000140FD258F90" name="getPressureVal" type="Function"/>
+        <function id="00000140FD0E2840" tokenDef="00000140FD259530" name="Set_Alarm_actuator" type="Function">
+          <arg nr="1" variable="00000140FD5117F0"/>
+        </function>
+        <function id="00000140FD0E28E0" tokenDef="00000140FD259110" name="GPIO_INITIALIZATION" type="Function"/>
+        <function id="00000140FD0E2980" tokenDef="00000140FD258FF0" name="GetPressureValue" type="Function">
+          <arg nr="1" variable="00000140FD511A90"/>
+        </function>
+        <function id="00000140FD0E2CA0" tokenDef="00000140FD2599B0" name="AlarmMointorTurnON" type="Function"/>
+        <function id="00000140FD0E2A20" tokenDef="00000140FD259410" name="AlarmStart" type="Function"/>
+        <function id="00000140FD0E2D40" tokenDef="00000140FD88CEB0" name="AlarmStop" type="Function"/>
+        <function id="00000140FD2518E0" tokenDef="00000140FD88C550" name="AlarmActuator_init" type="Function"/>
+        <function id="00000140FD250DA0" tokenDef="00000140FD88D6F0" name="STATE_AlarmActuator_waiting" type="Function"/>
+        <function id="00000140FD251480" tokenDef="00000140FD88D150" name="STATE_AlarmActuator_alarmON" type="Function"/>
+        <function id="00000140FD251160" tokenDef="00000140FD88C6D0" name="STATE_AlarmActuator_alarmOFF" type="Function"/>
+      </functionList>
+      <varlist>
+        <var id="00000140FD511710"/>
+        <var id="00000140FD511780"/>
+        <var id="00000140FD512F20"/>
+      </varlist>
+    </scope>
+    <scope id="00000140FCE97D10" type="Enum" className="AlarmActuator_states_t" bodyStart="00000140FD88C490" bodyEnd="00000140FD88D3F0" nestedIn="00000140FCE98590"/>
+    <scope id="00000140FCE988C0" type="Function" className="AlarmStart" bodyStart="00000140FD88DF90" bodyEnd="00000140FD88DC30" nestedIn="00000140FCE98590" function="00000140FD0E2A20"/>
+    <scope id="00000140FCE97AF0" type="Function" className="AlarmStop" bodyStart="00000140FD88D9F0" bodyEnd="00000140FD88DC90" nestedIn="00000140FCE98590" function="00000140FD0E2D40"/>
+    <scope id="00000140FCE986A0" type="Function" className="AlarmActuator_init" bodyStart="00000140FD88F2E0" bodyEnd="00000140FD88F6A0" nestedIn="00000140FCE98590" function="00000140FD2518E0"/>
+    <scope id="00000140FCE98150" type="Function" className="STATE_AlarmActuator_waiting" bodyStart="00000140FD88EC20" bodyEnd="00000140FD88E7A0" nestedIn="00000140FCE98590" function="00000140FD250DA0"/>
+    <scope id="00000140FCE98040" type="Function" className="STATE_AlarmActuator_alarmON" bodyStart="00000140FD88E140" bodyEnd="00000140FD88F0A0" nestedIn="00000140FCE98590" function="00000140FD251480"/>
+    <scope id="00000140FCE98370" type="Function" className="STATE_AlarmActuator_alarmOFF" bodyStart="00000140FD88F340" bodyEnd="00000140FD88E980" nestedIn="00000140FCE98590" function="00000140FD251160"/>
+  </scopes>
+  <variables>
+    <var id="00000140FD511710" nameToken="00000140FD88C190" typeStartToken="00000140FD88D4B0" typeEndToken="00000140FD88C130" access="Global" scope="00000140FCE98590" constness="0" isArgument="false" isArray="false" isClass="false" isConst="false" isExtern="true" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="00000140FD511780" nameToken="00000140FD88C7F0" typeStartToken="00000140FD88C730" typeEndToken="00000140FD88D330" access="Global" scope="00000140FCE98590" constness="0" isArgument="false" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="00000140FD5117F0" nameToken="00000140FD2592F0" typeStartToken="00000140FD259290" typeEndToken="00000140FD259290" access="Argument" scope="0000000000000000" constness="0" isArgument="true" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="00000140FD511A90" nameToken="00000140FD2593B0" typeStartToken="00000140FD2597D0" typeEndToken="00000140FD2597D0" access="Argument" scope="0000000000000000" constness="0" isArgument="true" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="00000140FD512120" nameToken="00000140FD259170" typeStartToken="00000140FD259AD0" typeEndToken="00000140FD259AD0" access="Argument" scope="0000000000000000" constness="0" isArgument="true" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="00000140FD512F20" nameToken="00000140FD88CC70" typeStartToken="00000140FD88CBB0" typeEndToken="00000140FD88CBB0" access="Global" scope="00000140FCE98590" constness="0" isArgument="false" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="00000140FCF01240">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="00000140FCF01000">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="00000140FCF01300">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="00000140FCF01420">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="00000140FCF010A0">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="00000140FCF01140">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="00000140FCF015A0">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="00000140FCF00F00">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="00000140FCF010C0">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="00000140FCF01560">
+      <value intvalue="1" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

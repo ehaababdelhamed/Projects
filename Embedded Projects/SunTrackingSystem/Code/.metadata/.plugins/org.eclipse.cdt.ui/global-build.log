@@ -1,0 +1,207 @@
+??:??:?? **** Incremental Build of configuration Debug for project SunTrackingSystem ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 SunTrackingSystem.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12776 bytes (39.0% Full)
+(.text + .data + .bootloader)
+
+Data:        283 bytes (13.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project SunTrackingSystem ****
+make all 
+Building file: ../Main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"Main.d" -MT"Main.o" -c -o "Main.o" "../Main.c"
+In file included from ../Main.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:91:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../Main.c: In function 'main':
+../Main.c:63: warning: implicit declaration of function 'abs'
+Finished building: ../Main.c
+ 
+Building target: SunTrackingSystem.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,SunTrackingSystem.map -mmcu=atmega32 -o "SunTrackingSystem.elf"  ./LDR.o ./Main.o ./Servo.o ./Timer1_PWM.o ./adc.o ./gpio.o ./lcd.o   
+Finished building target: SunTrackingSystem.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S SunTrackingSystem.elf  >"SunTrackingSystem.lss"
+Finished building: SunTrackingSystem.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 SunTrackingSystem.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12776 bytes (39.0% Full)
+(.text + .data + .bootloader)
+
+Data:        283 bytes (13.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project SunTrackingSystem ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 SunTrackingSystem.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12776 bytes (39.0% Full)
+(.text + .data + .bootloader)
+
+Data:        283 bytes (13.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project SunTrackingSystem ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 SunTrackingSystem.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12776 bytes (39.0% Full)
+(.text + .data + .bootloader)
+
+Data:        283 bytes (13.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project SunTrackingSystem ****
+make all 
+Building file: ../Main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"Main.d" -MT"Main.o" -c -o "Main.o" "../Main.c"
+In file included from ../Main.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:91:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../Main.c: In function 'main':
+../Main.c:64: warning: implicit declaration of function 'abs'
+Finished building: ../Main.c
+ 
+Building target: SunTrackingSystem.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,SunTrackingSystem.map -mmcu=atmega32 -o "SunTrackingSystem.elf"  ./LDR.o ./Main.o ./Servo.o ./Timer1_PWM.o ./adc.o ./gpio.o ./lcd.o   
+Finished building target: SunTrackingSystem.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S SunTrackingSystem.elf  >"SunTrackingSystem.lss"
+Finished building: SunTrackingSystem.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 SunTrackingSystem.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12710 bytes (38.8% Full)
+(.text + .data + .bootloader)
+
+Data:        281 bytes (13.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project SunTrackingSystem ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 SunTrackingSystem.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12710 bytes (38.8% Full)
+(.text + .data + .bootloader)
+
+Data:        281 bytes (13.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project SunTrackingSystem ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 SunTrackingSystem.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12710 bytes (38.8% Full)
+(.text + .data + .bootloader)
+
+Data:        281 bytes (13.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project SunTrackingSystem ****
+make all 
+Building file: ../Main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"Main.d" -MT"Main.o" -c -o "Main.o" "../Main.c"
+In file included from ../Main.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:91:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../Main.c: In function 'main':
+../Main.c:64: warning: implicit declaration of function 'abs'
+Finished building: ../Main.c
+ 
+Building target: SunTrackingSystem.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,SunTrackingSystem.map -mmcu=atmega32 -o "SunTrackingSystem.elf"  ./LDR.o ./Main.o ./Servo.o ./Timer1_PWM.o ./adc.o ./gpio.o ./lcd.o   
+Finished building target: SunTrackingSystem.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S SunTrackingSystem.elf  >"SunTrackingSystem.lss"
+Finished building: SunTrackingSystem.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 SunTrackingSystem.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12710 bytes (38.8% Full)
+(.text + .data + .bootloader)
+
+Data:        281 bytes (13.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project SunTrackingSystem ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 SunTrackingSystem.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12710 bytes (38.8% Full)
+(.text + .data + .bootloader)
+
+Data:        281 bytes (13.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 

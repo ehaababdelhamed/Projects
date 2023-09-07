@@ -1,0 +1,22 @@
+/*
+ * miniproject4.c
+ *
+ *  Created on: ???/???/????
+ *      Author: Ehab Mohamed
+ */
+
+#include "lcd.h"
+#include "ultrasonic.h"
+
+int main(){
+	uint16 Distance=0;
+	LCD_init();
+	Ultrasonic_init();
+	LCD_displayString("Distance= ");
+	while(1){
+		Distance=Ultrasonic_readDistance();
+		 LCD_moveCursor(0,11);
+		LCD_intgerToString(Distance);
+		LCD_displayCharacter(' ');
+	}
+}

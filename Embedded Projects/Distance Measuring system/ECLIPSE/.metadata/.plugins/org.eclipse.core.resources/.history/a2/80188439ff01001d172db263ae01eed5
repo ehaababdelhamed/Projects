@@ -1,0 +1,28 @@
+/*
+ * ultrasonic.c
+ *
+ *  Created on: ???/???/????
+ *      Author: Ehab Mohamed
+ */
+
+#include "icu.h"
+#include "ultrasonic.h"
+
+void Ultrasonic_init(void){
+	Icu_ConfigType Icu_Config={F_CPU_8,RISING};
+	Icu_init(&Icu_Config);
+	Icu_setCallBack(&Ultrasonic_edgeProcessing);
+
+}
+
+
+
+
+
+
+
+
+void Ultrasonic_edgeProcessing(void){
+
+}
+

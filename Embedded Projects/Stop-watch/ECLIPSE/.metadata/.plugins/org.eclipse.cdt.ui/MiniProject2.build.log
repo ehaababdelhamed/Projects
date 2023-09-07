@@ -1,0 +1,36 @@
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject2 ****
+make all 
+Building file: ../MiniProject2.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"MiniProject2.d" -MT"MiniProject2.o" -c -o "MiniProject2.o" "../MiniProject2.c"
+In file included from ../MiniProject2.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../MiniProject2.c
+ 
+Building target: MiniProject2.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject2.map -mmcu=atmega16 -o "MiniProject2.elf"  ./MiniProject2.o   
+Finished building target: MiniProject2.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject2.elf  >"MiniProject2.lss"
+Finished building: MiniProject2.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject2.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    5600 bytes (34.2% Full)
+(.text + .data + .bootloader)
+
+Data:         15 bytes (1.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+??:??:?? Build Finished. 0 errors, 1 warnings. (took 923ms)
+

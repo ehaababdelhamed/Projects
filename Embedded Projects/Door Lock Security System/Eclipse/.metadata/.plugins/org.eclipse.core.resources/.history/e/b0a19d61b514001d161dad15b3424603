@@ -1,0 +1,246 @@
+/*
+ ================================================================================================
+ Name        : Control-ECU.c
+ Author      : Ehab Mohamed Abdelhamed
+ Description : Control_ECU for door locker security system
+ Date        : 10/7/2022
+ ================================================================================================
+ */
+
+#include "Control-ECU.h"
+
+/*******************************************************************************
+ *                           Global Variables                                  *
+ *******************************************************************************/
+
+uint8 passwordSize = 0;
+uint8 g_password[MAXNUMBERS] = { 0 };
+uint32 ticks = 0;
+
+/*************************** Motor and Buzzer Functions *********************/
+
+/*
+ * Description: call back Function by timer to calcuate time of door open
+ */
+
+void OpenDoorticks(void) {
+	ticks++;
+	/*disable timer and turn off motor after 33 seconds */
+	if (ticks > TIMEOFCLOSEDOOR * NUMBEROFTICKSPERSECOND) {
+		DcMotor_Rotate(OFF);
+		ticks = 0;
+		Timer_deInit(TIMER_0);
+	}
+}
+/*
+ * Description: Function to open the door
+ * 15 seconds CW (OPEN)
+ * 3 seconds hold (HOLD)
+ * 15 seconds ACW (CLOSE)
+ */
+
+void OpenDoor(void) {
+	while (ticks < TIMEOFCLOSEDOOR * NUMBEROFTICKSPERSECOND) {
+		if (ticks < TIMEOFOPENDOOR * NUMBEROFTICKSPERSECOND) {
+			DcMotor_Rotate(ON_CW);
+		} else if (ticks < TIMEOFHOLDEDOOR * NUMBEROFTICKSPERSECOND
+				&& ticks > TIMEOFOPENDOOR * NUMBEROFTICKSPERSECOND) {
+			DcMotor_Rotate(OFF);
+		} else if (ticks < TIMEOFCLOSEDOOR * NUMBEROFTICKSPERSECOND
+				&& ticks > TIMEOFHOLDEDOOR * NUMBEROFTICKSPERSECOND) {
+			DcMotor_Rotate(ON_ACW);
+		}
+	}
+}
+
+/*
+ * Description: call back Function by timer to calcuate time of Runing Buzzer
+ */
+
+void turnOnBuzzerticks() {
+	ticks++;
+	/*disable timer and turn off buzzer after 1 minute*/
+	if (ticks > (60 * NUMBEROFTICKSPERSECOND)) {
+		ticks = 0;
+		Buzzer_OFF();
+		Timer_deInit(TIMER_0);
+	}
+}
+
+/*
+ * Description: Function to turn on buzzer for 1 minute
+ */
+
+void turnOnBuzzer() {
+	ticks++;
+	while (ticks < 60) {
+		Buzzer_ON();
+	}
+}
+
+/***************************************** Password Functions *******************************/
+
+/*
+ * Description: Function to check if it is fist using of the system
+ * check if there are password is saved at memory or not
+ * send flag to HMI_ECU
+ *
+ */
+
+void checkIfFirstUse(uint8 *new_password_flag) {
+	EEPROM_readByte(0x0310, new_password_flag);
+	if (*new_password_flag == DEFUALTVALUE) {
+		*new_password_flag = 1;
+	}
+	while (UART_recieveByte() != ECU2_READY) {
+	}
+	UART_sendByte(*new_password_flag);
+}
+
+/*
+ * Description: Function to save new password for the system in eeprom
+ * recieve new password from HMI_ECU
+ * save new password in eeprom
+ */
+
+void SavePasswordeEeprom() {
+	UART_sendByte(ECU2_READY);
+	/*recieve password size from HMI_ECU*/
+	passwordSize = UART_recieveByte();
+	EEPROM_writeByte(0x0310, passwordSize);
+	_delay_ms(10);
+	/*recieve new password from HMI_ECU*/
+	UART_sendByte(ECU2_READY);
+	for (uint8 i = 0; i < passwordSize; i++) {
+		g_password[i] = UART_recieveByte();
+	}
+	/*save new password in eeprom*/
+	for (uint8 i = 0; i < passwordSize; i++) {
+		EEPROM_writeByte(0x0311 + i, g_password[i]); /* Write password in the external EEPROM */
+		_delay_ms(10);
+	}
+}
+
+/*
+ * Description: Function to recieve password form HMI-ECU to open door or change password
+ * Recieve password
+ * match it with system password and return success or error
+ */
+
+uint8 matchPassword() {
+	uint8 passwordEntered[MAXNUMBERS] = { 0xff };
+	uint8 l_password[MAXNUMBERS] = { 0 };
+	/*read size the password from eeprom*/
+	EEPROM_readByte(0X0310, &passwordSize);
+	_delay_ms(10);
+	/*recieve enterd password from HMI_ECU*/
+	if (passwordSize != 0) {
+		UART_sendByte(ECU2_READY);
+		for (uint8 i = 0; i < MAXNUMBERS; i++) {
+			passwordEntered[i] = UART_recieveByte();
+		}
+	}
+	/*Read system password which saved in eeprom*/
+
+	for (uint8 i = 0; i < passwordSize; i++) {
+		EEPROM_readByte(0x0311 + i, &l_password[i]); /* Write password in the external EEPROM */
+	}
+	/*compare between two password*/
+	for (uint8 i = 0; i < passwordSize; i++) {
+		if (passwordEntered[i] != l_password[i]) {
+			return ERROR;
+		}
+	}
+	return SUCCESS;
+}
+
+/*******************************************************************************
+ *                             Main Function                                   *
+ *******************************************************************************/
+
+int main() {
+
+	/************************* Intiatilations *********************************/
+
+	/*
+	 * new_password_flag : to check if first use for system*
+	 * key: to save value from keypad
+	 * check_match : to check matching
+	 * missing_count : count number of enter wrong password
+	 * */
+
+	uint8 key = 0, check_match = 0, new_password_flag = 0;
+	uint8 missing_count = 0;
+	uint8 check_defualt = 0;
+
+	/* Initialize the Motor Driver */
+
+	DcMotor_init();
+	/* Initialize the buzzer Driver */
+
+	Buzzer_init();
+	/*enable global interrpt*/
+	SREG |= (1 << 7);
+	/*Timer Driver configrations */
+	Timer_ConfigType Timer_Config = { TIMER_0, COMPARE_MATCH_MODE, 0, 250,
+			F_CPU_1024 };
+	/* Initialize the TWI/I2C Driver with its configrations */
+	TWI_init(TWI_BAUDRATE, TWI_SLAVEADDRESS);
+	/* Initialize the UART Driver with its configrations */
+	UART_ConfigType UART_Config = { DATA_BIT_8, ODD_PARITY, STOP_BIT_1,
+	UART_BAUDRATE };
+	UART_init(&UART_Config);
+
+	checkIfFirstUse(&new_password_flag);
+
+	/***************************** Super Loop *********************************/
+
+	while (1) {
+		if (new_password_flag == 1) {
+			SavePasswordeEeprom();
+			_delay_ms(10);
+			new_password_flag = 0;
+		}
+		key = UART_recieveByte();
+
+		/*user can choose
+		 * + : open door
+		 * - : change password
+		 *  */
+
+		if (key == '-' || key == '+') {
+			do {
+				check_match = matchPassword();
+				UART_sendByte(check_match);
+				missing_count++;
+				if (missing_count == MAXMISSING) {
+					Timer0_setCallBack(&turnOnBuzzerticks);
+					Timer_init(&Timer_Config);
+					turnOnBuzzer();
+				}
+			} while (check_match == ERROR && missing_count != MAXMISSING);
+		}
+		/*
+		 * if user enter wright password
+		 * - : user can change system password
+		 * */
+		if (key == '-') {
+			if (check_match == SUCCESS) {
+				SavePasswordeEeprom();
+			}
+		}
+		/*if user enter wright password
+		 * + : door will open
+		 *  */
+
+		else if (key == '+') {
+			if (check_match == SUCCESS) {
+				Timer0_setCallBack(&OpenDoorticks);
+				Timer_init(&Timer_Config);
+				OpenDoor();
+			}
+		}
+		/*re intialize missing counter by zero*/
+		missing_count = 0;
+	}
+}

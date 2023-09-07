@@ -1,0 +1,20 @@
+??:??:?? **** Incremental Build of configuration Debug for project SunTrackingSystem ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 SunTrackingSystem.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   12710 bytes (38.8% Full)
+(.text + .data + .bootloader)
+
+Data:        281 bytes (13.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+??:??:?? Build Finished. 0 errors, 0 warnings. (took 424ms)
+

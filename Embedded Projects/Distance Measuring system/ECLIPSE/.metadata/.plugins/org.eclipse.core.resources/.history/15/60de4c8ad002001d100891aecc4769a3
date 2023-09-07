@@ -1,0 +1,57 @@
+/*
+ * ultrasonic.h
+ *
+ *  Created on: ???/???/????
+ *      Author: Ehab Mohamed
+ */
+
+#ifndef ULTRASONIC_H_
+#define ULTRASONIC_H_
+
+#include "std_types.h"
+
+/*******************************************************************************
+ *                                Definitions                                  *
+ *******************************************************************************/
+
+#define ULTRASOINC_TRIG_PORT PORTB_ID
+#define ULTRASOINC_TRIG_PIN  PIN5_ID
+
+/*******************************************************************************
+ *                      Functions Prototypes                                   *
+ *******************************************************************************/
+
+/*
+ * Description : Function to initialize the Ultrasonic driver
+ * 	1. Initialize the ICU driver as required.
+ * 	2. Setup the ICU call back function.
+ * 	3. Setup the direction for the trigger pin as output pin through the GPIO driver.
+ */
+void Ultrasonic_init(void);
+/*
+ * Description : Function to initialize the  driver
+ * 	1. Set the required clock.
+ * 	2. Set the required edge detection.
+ * 	3. Enable the Input Capture Interrupt.
+ * 	4. Initialize Timer1 Registers
+ */
+void Ultrasonic_edgeProcessing(void);
+/*
+ * Description : Function to initialize the ICU driver
+ * 	1. Set the required clock.
+ * 	2. Set the required edge detection.
+ * 	3. Enable the Input Capture Interrupt.
+ * 	4. Initialize Timer1 Registers
+ */
+uint16 Ultrasonic_readDistance(void);
+/*
+ * Description : Function to initialize the ICU driver
+ * 	1. Set the required clock.
+ * 	2. Set the required edge detection.
+ * 	3. Enable the Input Capture Interrupt.
+ * 	4. Initialize Timer1 Registers
+ */
+void Ultrasonic_edgeProcessing(void);
+
+
+#endif /* ULTRASONIC_H_ */

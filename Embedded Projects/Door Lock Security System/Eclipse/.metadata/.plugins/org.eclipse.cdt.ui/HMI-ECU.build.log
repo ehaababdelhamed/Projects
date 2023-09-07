@@ -1,0 +1,11 @@
+??:??:?? **** Incremental Build of configuration Debug for project HMI-ECU ****
+make all 
+Building target: HMI-ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,HMI-ECU.map -mmcu=atmega16 -o "HMI-ECU.elf"  ./gpio.o ./keypad.o ./lcd.o ./timer.o ./uart.o   
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm16.o:(.init9+0x0): undefined reference to `main'
+make: *** [HMI-ECU.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+??:??:?? Build Failed. 2 errors, 0 warnings. (took 272ms)
+

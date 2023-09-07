@@ -1,0 +1,66 @@
+/*
+ * ultrasonic.c
+ *
+ *  Created on: ???/???/????
+ *      Author: Ehab Mohamed
+ */
+
+#include "icu.h"
+#include "ultrasonic.h"
+#include "gpio.h"
+#include <util/delay.h>
+
+uint8 g_edgeCount = 0;
+uint16 g_timeHigh = 0;
+uint16 g_Distance=0;
+
+
+void Ultrasonic_init(void){
+	Icu_ConfigType Icu_Config={F_CPU_8,RISING};
+	Icu_init(&Icu_Config);
+	Icu_setCallBack(Ultrasonic_edgeProcessing);
+	GPIO_setupPinDirection(ULTRASOINC_TRIG_PORT,ULTRASOINC_TRIG_PIN,PIN_OUTPUT);
+	GPIO_writePin(ULTRASOINC_TRIG_PORT,ULTRASOINC_TRIG_PIN,LOGIC_LOW);
+}
+
+void Ultrasonic_Trigger(void){
+	GPIO_writePin(ULTRASOINC_TRIG_PORT,ULTRASOINC_TRIG_PIN,LOGIC_HIGH);
+	_delay_us(50);
+	GPIO_writePin(ULTRASOINC_TRIG_PORT,ULTRASOINC_TRIG_PIN,LOGIC_LOW);
+}
+
+uint16 Ultrasonic_readDistance(void){
+	Ultrasonic_Trigger();
+	_delay_ms(50);
+	if(g_edgeCount == 2)
+	{
+		Icu_clearTimerValue();
+		g_edgeCount = 0;
+		g_Distance =(float32)g_timeHigh*0.017;
+}
+	return g_Distance;
+}
+
+
+
+void Ultrasonic_edgeProcessing(void){
+	g_edgeCount++;
+	if(g_edgeCount == 1)
+	{
+		/* Clear the timer counter register to start measurements from the
+		 * first detected rising edge
+		 */
+		Icu_clearTimerValue();
+		/* Detect falling edge */
+		Icu_setEdgeDetectionType(FALLING);
+	}
+	else if(g_edgeCount == 2)
+	{
+		/* Store the High time value */
+		g_timeHigh = Icu_getInputCaptureValue();
+		/* Detect rising edge */
+		Icu_setEdgeDetectionType(RISING);
+	}
+
+}
+

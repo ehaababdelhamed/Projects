@@ -1,0 +1,400 @@
+<?xml version="1.0"?>
+<dumps>
+  <platform name="win64" char_bit="8" short_bit="16" int_bit="32" long_bit="32" long_long_bit="64" pointer_bit="64"/>
+  <rawtokens>
+    <file index="0" name="alarm_monitor.c"/>
+    <file index="1" name="alarm_monitor.h"/>
+    <file index="2" name="Platform_Types.h"/>
+    <file index="3" name="driver.h"/>
+    <file index="4" name="state.h"/>
+    <tok fileIndex="0" linenr="1" column="1" str="/******************************************************************************x * File Name: alarm_monitor.cx * Description: soruce file for alarm monitor to give alarm when high pressure detectedx * Author: Ehab Mohamed Abdelhamedx ******************************************************************************/"/>
+    <tok fileIndex="0" linenr="6" column="1" str="#"/>
+    <tok fileIndex="0" linenr="6" column="2" str="include"/>
+    <tok fileIndex="0" linenr="6" column="10" str="&quot;alarm_monitor.h&quot;"/>
+    <tok fileIndex="0" linenr="8" column="1" str="/******************************************************************************* *                         Module Global Variables                             * ******************************************************************************/"/>
+    <tok fileIndex="0" linenr="12" column="1" str="void"/>
+    <tok fileIndex="0" linenr="12" column="5" str="("/>
+    <tok fileIndex="0" linenr="12" column="6" str="*"/>
+    <tok fileIndex="0" linenr="12" column="7" str="AlarmMonitor_state"/>
+    <tok fileIndex="0" linenr="12" column="25" str=")"/>
+    <tok fileIndex="0" linenr="12" column="26" str="("/>
+    <tok fileIndex="0" linenr="12" column="27" str=")"/>
+    <tok fileIndex="0" linenr="12" column="28" str="="/>
+    <tok fileIndex="0" linenr="12" column="29" str="STATE"/>
+    <tok fileIndex="0" linenr="12" column="34" str="("/>
+    <tok fileIndex="0" linenr="12" column="35" str="AlarmMonitor_alarmOFF"/>
+    <tok fileIndex="0" linenr="12" column="56" str=")"/>
+    <tok fileIndex="0" linenr="12" column="57" str=";"/>
+    <tok fileIndex="0" linenr="13" column="1" str="AlarmMonitor_states_t"/>
+    <tok fileIndex="0" linenr="13" column="23" str="AlarmMonitor_state_id"/>
+    <tok fileIndex="0" linenr="13" column="44" str="="/>
+    <tok fileIndex="0" linenr="13" column="45" str="AlarmMonitor_alarmOFF"/>
+    <tok fileIndex="0" linenr="13" column="66" str=";"/>
+    <tok fileIndex="0" linenr="16" column="1" str="/*******************************************************************************x *                              Functions Definition                           *x ******************************************************************************/"/>
+    <tok fileIndex="0" linenr="20" column="2" str="/************************************************************************************x * Function Name: STATE_AlarmMonitor_alarmOFFx * Description: Function to make alarm mointor on state when high pressure detectionx ************************************************************************************/"/>
+    <tok fileIndex="0" linenr="24" column="2" str="void"/>
+    <tok fileIndex="0" linenr="24" column="7" str="AlarmMointorTurnON"/>
+    <tok fileIndex="0" linenr="24" column="25" str="("/>
+    <tok fileIndex="0" linenr="24" column="26" str=")"/>
+    <tok fileIndex="0" linenr="24" column="27" str="{"/>
+    <tok fileIndex="0" linenr="25" column="2" str="AlarmMonitor_state"/>
+    <tok fileIndex="0" linenr="25" column="20" str="="/>
+    <tok fileIndex="0" linenr="25" column="21" str="STATE"/>
+    <tok fileIndex="0" linenr="25" column="26" str="("/>
+    <tok fileIndex="0" linenr="25" column="27" str="AlarmMonitor_alarmON"/>
+    <tok fileIndex="0" linenr="25" column="47" str=")"/>
+    <tok fileIndex="0" linenr="25" column="48" str=";"/>
+    <tok fileIndex="0" linenr="26" column="1" str="}"/>
+    <tok fileIndex="0" linenr="28" column="1" str="/************************************************************************************x * Function Name: STATE_AlarmMonitor_alarmOFFx * Description: intial state of alarm mointor and actutors is turned offx ************************************************************************************/"/>
+    <tok fileIndex="0" linenr="33" column="1" str="CREATE_STATE"/>
+    <tok fileIndex="0" linenr="33" column="13" str="("/>
+    <tok fileIndex="0" linenr="33" column="14" str="AlarmMonitor_alarmOFF"/>
+    <tok fileIndex="0" linenr="33" column="35" str=")"/>
+    <tok fileIndex="0" linenr="33" column="36" str="{"/>
+    <tok fileIndex="0" linenr="34" column="2" str="//state name"/>
+    <tok fileIndex="0" linenr="35" column="2" str="AlarmMonitor_state_id"/>
+    <tok fileIndex="0" linenr="35" column="23" str="="/>
+    <tok fileIndex="0" linenr="35" column="24" str="AlarmMonitor_alarmOFF"/>
+    <tok fileIndex="0" linenr="35" column="45" str=";"/>
+    <tok fileIndex="0" linenr="36" column="1" str="}"/>
+    <tok fileIndex="0" linenr="38" column="1" str="/************************************************************************************x * Function Name: STATE_AlarmMonitor_alarmONx * Description: state for send signal to alarm actuator to turn onx ************************************************************************************/"/>
+    <tok fileIndex="0" linenr="43" column="1" str="CREATE_STATE"/>
+    <tok fileIndex="0" linenr="43" column="13" str="("/>
+    <tok fileIndex="0" linenr="43" column="14" str="AlarmMonitor_alarmON"/>
+    <tok fileIndex="0" linenr="43" column="34" str=")"/>
+    <tok fileIndex="0" linenr="43" column="35" str="{"/>
+    <tok fileIndex="0" linenr="44" column="2" str="//state name"/>
+    <tok fileIndex="0" linenr="45" column="2" str="AlarmMonitor_state_id"/>
+    <tok fileIndex="0" linenr="45" column="23" str="="/>
+    <tok fileIndex="0" linenr="45" column="24" str="AlarmMonitor_alarmON"/>
+    <tok fileIndex="0" linenr="45" column="44" str=";"/>
+    <tok fileIndex="0" linenr="46" column="2" str="//state action"/>
+    <tok fileIndex="0" linenr="47" column="2" str="//start alarm actuators then move to waiting state"/>
+    <tok fileIndex="0" linenr="48" column="2" str="AlarmStart"/>
+    <tok fileIndex="0" linenr="48" column="12" str="("/>
+    <tok fileIndex="0" linenr="48" column="13" str=")"/>
+    <tok fileIndex="0" linenr="48" column="14" str=";"/>
+    <tok fileIndex="0" linenr="49" column="2" str="AlarmMonitor_state"/>
+    <tok fileIndex="0" linenr="49" column="20" str="="/>
+    <tok fileIndex="0" linenr="49" column="21" str="STATE"/>
+    <tok fileIndex="0" linenr="49" column="26" str="("/>
+    <tok fileIndex="0" linenr="49" column="27" str="AlarmMonitor_waiting"/>
+    <tok fileIndex="0" linenr="49" column="47" str=")"/>
+    <tok fileIndex="0" linenr="49" column="48" str=";"/>
+    <tok fileIndex="0" linenr="50" column="1" str="}"/>
+    <tok fileIndex="0" linenr="52" column="1" str="/************************************************************************************x * Function Name: STATE_AlarmMonitor_waitingx * Description: state for keep alarm on for alarm time period then turn offx ************************************************************************************/"/>
+    <tok fileIndex="0" linenr="57" column="1" str="CREATE_STATE"/>
+    <tok fileIndex="0" linenr="57" column="13" str="("/>
+    <tok fileIndex="0" linenr="57" column="14" str="AlarmMonitor_waiting"/>
+    <tok fileIndex="0" linenr="57" column="34" str=")"/>
+    <tok fileIndex="0" linenr="57" column="35" str="{"/>
+    <tok fileIndex="0" linenr="58" column="2" str="//State name"/>
+    <tok fileIndex="0" linenr="59" column="2" str="AlarmMonitor_state_id"/>
+    <tok fileIndex="0" linenr="59" column="23" str="="/>
+    <tok fileIndex="0" linenr="59" column="24" str="AlarmMonitor_waiting"/>
+    <tok fileIndex="0" linenr="59" column="44" str=";"/>
+    <tok fileIndex="0" linenr="60" column="2" str="//state action"/>
+    <tok fileIndex="0" linenr="61" column="2" str="//Keep alarm on for alarm time period"/>
+    <tok fileIndex="0" linenr="62" column="2" str="Delay"/>
+    <tok fileIndex="0" linenr="62" column="7" str="("/>
+    <tok fileIndex="0" linenr="62" column="8" str="ALARM_TIME"/>
+    <tok fileIndex="0" linenr="62" column="18" str=")"/>
+    <tok fileIndex="0" linenr="62" column="19" str=";"/>
+    <tok fileIndex="0" linenr="63" column="2" str="AlarmStop"/>
+    <tok fileIndex="0" linenr="63" column="11" str="("/>
+    <tok fileIndex="0" linenr="63" column="12" str=")"/>
+    <tok fileIndex="0" linenr="63" column="13" str=";"/>
+    <tok fileIndex="0" linenr="64" column="2" str="//move to alarm off state"/>
+    <tok fileIndex="0" linenr="65" column="2" str="AlarmMonitor_state"/>
+    <tok fileIndex="0" linenr="65" column="20" str="="/>
+    <tok fileIndex="0" linenr="65" column="21" str="STATE"/>
+    <tok fileIndex="0" linenr="65" column="26" str="("/>
+    <tok fileIndex="0" linenr="65" column="27" str="AlarmMonitor_alarmOFF"/>
+    <tok fileIndex="0" linenr="65" column="48" str=")"/>
+    <tok fileIndex="0" linenr="65" column="49" str=";"/>
+    <tok fileIndex="0" linenr="66" column="1" str="}"/>
+  </rawtokens>
+  <suppressions>
+  </suppressions>
+<dump cfg="">
+  <standards>
+    <c version="c11"/>
+    <cpp version="c++20"/>
+  </standards>
+  <directivelist>
+    <directive file="alarm_monitor.c" linenr="6" str="#include &quot;alarm_monitor.h&quot;"/>
+    <directive file="Platform_Types.h" linenr="11" str="#ifndef PLATFORM_TYPES_H_"/>
+    <directive file="Platform_Types.h" linenr="12" str="#define PLATFORM_TYPES_H_"/>
+    <directive file="Platform_Types.h" linenr="17" str="#define CPU_TYPE_8 (8u)"/>
+    <directive file="Platform_Types.h" linenr="18" str="#define CPU_TYPE_16 (16u)"/>
+    <directive file="Platform_Types.h" linenr="19" str="#define CPU_TYPE_32 (32u)"/>
+    <directive file="Platform_Types.h" linenr="22" str="#define LSB_FIRST (0u)"/>
+    <directive file="Platform_Types.h" linenr="23" str="#define MSB_FIRST (1u)"/>
+    <directive file="Platform_Types.h" linenr="26" str="#define LOW_BYTE_ORDER (0u)"/>
+    <directive file="Platform_Types.h" linenr="27" str="#define HIGH_BYTE_ORDER (1u)"/>
+    <directive file="Platform_Types.h" linenr="30" str="#define CPU_TYPE CPU_TYPE_32"/>
+    <directive file="Platform_Types.h" linenr="31" str="#define CPU_BIT_ORDER LSB_FIRST"/>
+    <directive file="Platform_Types.h" linenr="32" str="#define CPU_BYTE_ORDER LOW_BYTE_FIRST"/>
+    <directive file="Platform_Types.h" linenr="35" str="#ifndef TRUE"/>
+    <directive file="Platform_Types.h" linenr="36" str="#define TRUE (1u)"/>
+    <directive file="Platform_Types.h" linenr="37" str="#endif"/>
+    <directive file="Platform_Types.h" linenr="39" str="#ifndef FALSE"/>
+    <directive file="Platform_Types.h" linenr="40" str="#define FALSE (0u)"/>
+    <directive file="Platform_Types.h" linenr="41" str="#endif"/>
+    <directive file="Platform_Types.h" linenr="60" str="#endif"/>
+    <directive file="alarm_monitor.h" linenr="7" str="#ifndef ALARM_MONITOR_H_"/>
+    <directive file="alarm_monitor.h" linenr="8" str="#define ALARM_MONITOR_H_"/>
+    <directive file="alarm_monitor.h" linenr="10" str="#include &quot;Platform_Types.h&quot;"/>
+    <directive file="alarm_monitor.h" linenr="11" str="#include &quot;driver.h&quot;"/>
+    <directive file="alarm_monitor.h" linenr="12" str="#include &quot;state.h&quot;"/>
+    <directive file="alarm_monitor.h" linenr="17" str="#define ALARM_TIME (6000000u)"/>
+    <directive file="alarm_monitor.h" linenr="42" str="#endif"/>
+    <directive file="driver.h" linenr="6" str="#include &lt;stdint.h&gt;"/>
+    <directive file="driver.h" linenr="8" str="#define SET_BIT(ADDRESS,BIT) (ADDRESS) |= (1&lt;&lt;(BIT))"/>
+    <directive file="driver.h" linenr="9" str="#define RESET_BIT(ADDRESS,BIT) (ADDRESS) &amp;= ~(1&lt;&lt;(BIT))"/>
+    <directive file="driver.h" linenr="10" str="#define TOGGLE_BIT(ADDRESS,BIT) (ADDRESS) ^= (1&lt;&lt;(BIT))"/>
+    <directive file="driver.h" linenr="11" str="#define READ_BIT(ADDRESS,BIT) (ADDRESS) &amp; (1&lt;&lt;(BIT))"/>
+    <directive file="driver.h" linenr="14" str="#define GPIO_PORTA 0x40010800"/>
+    <directive file="driver.h" linenr="15" str="#define BASE_RCC 0x40021000"/>
+    <directive file="driver.h" linenr="17" str="#define APB2ENR *(volatile uint32_t *)(BASE_RCC + 0x18)"/>
+    <directive file="driver.h" linenr="19" str="#define GPIOA_CRL *(volatile uint32_t *)(GPIO_PORTA + 0x00)"/>
+    <directive file="driver.h" linenr="20" str="#define GPIOA_CRH *(volatile uint32_t *)(GPIO_PORTA + 0X04)"/>
+    <directive file="driver.h" linenr="21" str="#define GPIOA_IDR *(volatile uint32_t *)(GPIO_PORTA + 0x08)"/>
+    <directive file="driver.h" linenr="22" str="#define GPIOA_ODR *(volatile uint32_t *)(GPIO_PORTA + 0x0C)"/>
+    <directive file="state.h" linenr="7" str="#ifndef STATE_H_"/>
+    <directive file="state.h" linenr="8" str="#define STATE_H_"/>
+    <directive file="state.h" linenr="13" str="#define CREATE_STATE(STATE_NAME) void STATE_##STATE_NAME()"/>
+    <directive file="state.h" linenr="14" str="#define STATE(STATE_NAME) STATE_##STATE_NAME"/>
+    <directive file="state.h" linenr="27" str="#endif"/>
+  </directivelist>
+  <tokenlist>
+    <token id="00000140FD545010" file="driver.h" linenr="25" column="1" str="void" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD6EF060" file="driver.h" linenr="25" column="6" str="Delay" scope="00000140FCE98590" type="name" function="00000140FD0E2D40"/>
+    <token id="00000140FD6EF0C0" file="driver.h" linenr="25" column="11" str="(" scope="00000140FCE98590" link="00000140FD6EFCC0" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD6EFE40" file="driver.h" linenr="25" column="12" str="int" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD6EFA20" file="driver.h" linenr="25" column="16" str="nCount" scope="00000140FCE98590" type="name" varId="1" variable="00000140FD5127B0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="00000140FD6EFCC0" file="driver.h" linenr="25" column="22" str=")" scope="00000140FCE98590" link="00000140FD6EF0C0"/>
+    <token id="00000140FD6EF360" file="driver.h" linenr="25" column="23" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD6EF960" file="driver.h" linenr="26" column="1" str="int" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD6EFDE0" file="driver.h" linenr="26" column="5" str="getPressureVal" scope="00000140FCE98590" type="name" function="00000140FD0E2700"/>
+    <token id="00000140FD6EFC60" file="driver.h" linenr="26" column="19" str="(" scope="00000140FCE98590" link="00000140FD6EF240" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="00000140FD6EF240" file="driver.h" linenr="26" column="20" str=")" scope="00000140FCE98590" link="00000140FD6EFC60"/>
+    <token id="00000140FD6EFD80" file="driver.h" linenr="26" column="21" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD6EF120" file="driver.h" linenr="27" column="1" str="void" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD6EF1E0" file="driver.h" linenr="27" column="6" str="Set_Alarm_actuator" scope="00000140FCE98590" type="name" function="00000140FD0E28E0"/>
+    <token id="00000140FD6EFEA0" file="driver.h" linenr="27" column="24" str="(" scope="00000140FCE98590" link="00000140FD6EF7E0" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD6EF720" file="driver.h" linenr="27" column="25" str="int" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD6EF780" file="driver.h" linenr="27" column="29" str="i" scope="00000140FCE98590" type="name" varId="2" variable="00000140FD5122E0" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="00000140FD6EF7E0" file="driver.h" linenr="27" column="30" str=")" scope="00000140FCE98590" link="00000140FD6EFEA0"/>
+    <token id="00000140FD6EF180" file="driver.h" linenr="27" column="31" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD6EF8A0" file="driver.h" linenr="28" column="1" str="void" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD6EFBA0" file="driver.h" linenr="28" column="6" str="GPIO_INITIALIZATION" scope="00000140FCE98590" type="name" function="00000140FD0E2340"/>
+    <token id="00000140FD6EF3C0" file="driver.h" linenr="28" column="26" str="(" scope="00000140FCE98590" link="00000140FD6EF2A0" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD6EF2A0" file="driver.h" linenr="28" column="27" str=")" scope="00000140FCE98590" link="00000140FD6EF3C0"/>
+    <token id="00000140FD6EF300" file="driver.h" linenr="28" column="28" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD6EF4E0" file="state.h" linenr="19" column="1" str="void" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD6EF5A0" file="state.h" linenr="19" column="6" str="GetPressureValue" scope="00000140FCE98590" type="name" function="00000140FD0E23E0"/>
+    <token id="00000140FD6EF900" file="state.h" linenr="19" column="22" str="(" scope="00000140FCE98590" link="00000140FD6EF420" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD6EF9C0" file="state.h" linenr="19" column="23" str="int" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD6EFA80" file="state.h" linenr="19" column="27" str="Pval" scope="00000140FCE98590" type="name" varId="3" variable="00000140FD512900" valueType-type="int" valueType-sign="signed" valueType-reference="None"/>
+    <token id="00000140FD6EF420" file="state.h" linenr="19" column="31" str=")" scope="00000140FCE98590" link="00000140FD6EF900"/>
+    <token id="00000140FD6EF540" file="state.h" linenr="19" column="32" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD6EF600" file="state.h" linenr="20" column="1" str="void" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD6EFAE0" file="state.h" linenr="20" column="6" str="AlarmMointorTurnON" scope="00000140FCE98590" type="name" function="00000140FD0E2480"/>
+    <token id="00000140FD6EFF00" file="state.h" linenr="20" column="24" str="(" scope="00000140FCE98590" link="00000140FD6EFF60" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD6EFF60" file="state.h" linenr="20" column="25" str=")" scope="00000140FCE98590" link="00000140FD6EFF00"/>
+    <token id="00000140FD6EFB40" file="state.h" linenr="20" column="26" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD6EFC00" file="state.h" linenr="21" column="1" str="void" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD6EF660" file="state.h" linenr="21" column="6" str="AlarmStart" scope="00000140FCE98590" type="name" function="00000140FD0E2980"/>
+    <token id="00000140FD6EF6C0" file="state.h" linenr="21" column="16" str="(" scope="00000140FCE98590" link="00000140FD8CF260" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD8CF260" file="state.h" linenr="21" column="17" str=")" scope="00000140FCE98590" link="00000140FD6EF6C0"/>
+    <token id="00000140FD8CEC00" file="state.h" linenr="21" column="18" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD8CE540" file="state.h" linenr="22" column="1" str="void" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD8CE240" file="state.h" linenr="22" column="6" str="AlarmStop" scope="00000140FCE98590" type="name" function="00000140FD0E2A20"/>
+    <token id="00000140FD8CE2A0" file="state.h" linenr="22" column="15" str="(" scope="00000140FCE98590" link="00000140FD8CF440" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD8CF440" file="state.h" linenr="22" column="16" str=")" scope="00000140FCE98590" link="00000140FD8CE2A0"/>
+    <token id="00000140FD8CE660" file="state.h" linenr="22" column="17" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD8CF3E0" file="alarm_monitor.h" linenr="23" column="1" str="extern" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD8CE780" file="alarm_monitor.h" linenr="23" column="8" str="void" scope="00000140FCE98590" type="name" astParent="00000140FD8CE9C0"/>
+    <token id="00000140FD8CE9C0" file="alarm_monitor.h" linenr="23" column="12" str="(" scope="00000140FCE98590" link="00000140FD8CEBA0" astParent="00000140FD8D0E50" astOperand1="00000140FD8CE780" astOperand2="00000140FD8CF2C0" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD8CF2C0" file="alarm_monitor.h" linenr="23" column="13" str="*" scope="00000140FCE98590" type="op" isArithmeticalOp="true" astParent="00000140FD8CE9C0" astOperand1="00000140FD8CE8A0" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD8CE8A0" file="alarm_monitor.h" linenr="23" column="14" str="AlarmMonitor_state" scope="00000140FCE98590" type="name" varId="4" variable="00000140FD5120B0" astParent="00000140FD8CF2C0" valueType-type="void" valueType-pointer="1" valueType-reference="None"/>
+    <token id="00000140FD8CEBA0" file="alarm_monitor.h" linenr="23" column="32" str=")" scope="00000140FCE98590" link="00000140FD8CE9C0"/>
+    <token id="00000140FD8D0E50" file="alarm_monitor.h" linenr="23" column="0" str="(" scope="00000140FCE98590" link="00000140FD8D10F0" astOperand1="00000140FD8CE9C0"/>
+    <token id="00000140FD8D10F0" file="alarm_monitor.h" linenr="23" column="0" str=")" scope="00000140FCE98590" link="00000140FD8D0E50"/>
+    <token id="00000140FD8CE420" file="alarm_monitor.h" linenr="23" column="35" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD8CF680" file="alarm_monitor.h" linenr="28" column="9" str="enum" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD8D0550" file="alarm_monitor.h" linenr="28" column="0" str="AlarmMonitor_states_t" scope="00000140FCE98590" type="name" type-scope="00000140FCE98370"/>
+    <token id="00000140FD8CEFC0" file="alarm_monitor.h" linenr="28" column="13" str="{" scope="00000140FCE98370" link="00000140FD8CF320"/>
+    <token id="00000140FD8CE6C0" file="alarm_monitor.h" linenr="29" column="2" str="AlarmMonitor_waiting" scope="00000140FCE98370" type="name" values="00000140FCF01040" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE98370"/>
+    <token id="00000140FD8CE900" file="alarm_monitor.h" linenr="29" column="22" str="," scope="00000140FCE98370"/>
+    <token id="00000140FD8CE120" file="alarm_monitor.h" linenr="29" column="23" str="AlarmMonitor_alarmON" scope="00000140FCE98370" type="name" values="00000140FCF01560" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE98370"/>
+    <token id="00000140FD8CEC60" file="alarm_monitor.h" linenr="29" column="43" str="," scope="00000140FCE98370"/>
+    <token id="00000140FD8CF560" file="alarm_monitor.h" linenr="29" column="44" str="AlarmMonitor_alarmOFF" scope="00000140FCE98370" type="name" values="00000140FCF01140" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE98370"/>
+    <token id="00000140FD8CF320" file="alarm_monitor.h" linenr="30" column="1" str="}" scope="00000140FCE98370" link="00000140FD8CEFC0"/>
+    <token id="00000140FD8D0310" file="alarm_monitor.h" linenr="30" column="0" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD8D0370" file="alarm_monitor.h" linenr="36" column="1" str="void" scope="00000140FCE98590" type="name" isExpandedMacro="true"/>
+    <token id="00000140FD8CE1E0" file="alarm_monitor.h" linenr="36" column="1" str="STATE_AlarmMonitor_waiting" scope="00000140FCE98590" type="name" function="00000140FCECF180"/>
+    <token id="00000140FD8CED20" file="alarm_monitor.h" linenr="36" column="1" str="(" scope="00000140FCE98590" isExpandedMacro="true" link="00000140FD8CF7A0" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD8CF7A0" file="alarm_monitor.h" linenr="36" column="1" str=")" scope="00000140FCE98590" isExpandedMacro="true" link="00000140FD8CED20"/>
+    <token id="00000140FD8CE300" file="alarm_monitor.h" linenr="36" column="35" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD8CED80" file="alarm_monitor.h" linenr="38" column="1" str="void" scope="00000140FCE98590" type="name" isExpandedMacro="true"/>
+    <token id="00000140FD8CE360" file="alarm_monitor.h" linenr="38" column="1" str="STATE_AlarmMonitor_alarmON" scope="00000140FCE98590" type="name" function="00000140FCECF900"/>
+    <token id="00000140FD8CF5C0" file="alarm_monitor.h" linenr="38" column="1" str="(" scope="00000140FCE98590" isExpandedMacro="true" link="00000140FD8CF4A0" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD8CF4A0" file="alarm_monitor.h" linenr="38" column="1" str=")" scope="00000140FCE98590" isExpandedMacro="true" link="00000140FD8CF5C0"/>
+    <token id="00000140FD8CE3C0" file="alarm_monitor.h" linenr="38" column="35" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD8CEDE0" file="alarm_monitor.h" linenr="40" column="1" str="void" scope="00000140FCE98590" type="name" isExpandedMacro="true"/>
+    <token id="00000140FD8CEA20" file="alarm_monitor.h" linenr="40" column="1" str="STATE_AlarmMonitor_alarmOFF" scope="00000140FCE98590" type="name" function="00000140FCECF860"/>
+    <token id="00000140FD8CE5A0" file="alarm_monitor.h" linenr="40" column="1" str="(" scope="00000140FCE98590" isExpandedMacro="true" link="00000140FD8CE480" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD8CE480" file="alarm_monitor.h" linenr="40" column="1" str=")" scope="00000140FCE98590" isExpandedMacro="true" link="00000140FD8CE5A0"/>
+    <token id="00000140FD8CE4E0" file="alarm_monitor.h" linenr="40" column="36" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD8CF500" file="alarm_monitor.c" linenr="12" column="1" str="void" scope="00000140FCE98590" type="name" astParent="00000140FD8CE720"/>
+    <token id="00000140FD8CE720" file="alarm_monitor.c" linenr="12" column="5" str="(" scope="00000140FCE98590" link="00000140FD8CF380" astParent="00000140FD8D13F0" astOperand1="00000140FD8CF500" astOperand2="00000140FD8CF620" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD8CF620" file="alarm_monitor.c" linenr="12" column="6" str="*" scope="00000140FCE98590" type="op" isArithmeticalOp="true" astParent="00000140FD8CE720" astOperand1="00000140FD8CEA80" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD8CEA80" file="alarm_monitor.c" linenr="12" column="7" str="AlarmMonitor_state" scope="00000140FCE98590" type="name" varId="5" variable="00000140FD511FD0" astParent="00000140FD8CF620" valueType-type="void" valueType-pointer="1" valueType-reference="None"/>
+    <token id="00000140FD8CF380" file="alarm_monitor.c" linenr="12" column="25" str=")" scope="00000140FCE98590" link="00000140FD8CE720"/>
+    <token id="00000140FD8D13F0" file="alarm_monitor.c" linenr="12" column="0" str="(" scope="00000140FCE98590" link="00000140FD8D07F0" astOperand1="00000140FD8CE720"/>
+    <token id="00000140FD8D07F0" file="alarm_monitor.c" linenr="12" column="0" str=")" scope="00000140FCE98590" link="00000140FD8D13F0"/>
+    <token id="00000140FD8D1390" file="alarm_monitor.c" linenr="12" column="0" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD8D1090" file="alarm_monitor.c" linenr="12" column="0" str="AlarmMonitor_state" scope="00000140FCE98590" type="name" varId="5" variable="00000140FD511FD0" astParent="00000140FD8CEEA0" valueType-type="void" valueType-pointer="1" valueType-reference="None"/>
+    <token id="00000140FD8CEEA0" file="alarm_monitor.c" linenr="12" column="28" str="=" scope="00000140FCE98590" type="op" isAssignmentOp="true" astOperand1="00000140FD8D1090" astOperand2="00000140FD8CF080" valueType-type="void" valueType-pointer="1" valueType-reference="None"/>
+    <token id="00000140FD8CF080" file="alarm_monitor.c" linenr="12" column="29" str="STATE_AlarmMonitor_alarmOFF" scope="00000140FCE98590" type="name" astParent="00000140FD8CEEA0"/>
+    <token id="00000140FD8CE600" file="alarm_monitor.c" linenr="12" column="57" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD8CEAE0" file="alarm_monitor.c" linenr="13" column="1" str="AlarmMonitor_states_t" scope="00000140FCE98590" type="name" type-scope="00000140FCE98370"/>
+    <token id="00000140FD8CF740" file="alarm_monitor.c" linenr="13" column="23" str="AlarmMonitor_state_id" scope="00000140FCE98590" type="name" varId="6" variable="00000140FD511DA0" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE98370"/>
+    <token id="00000140FD8CEB40" file="alarm_monitor.c" linenr="13" column="44" str=";" scope="00000140FCE98590" isSplittedVarDeclEq="true"/>
+    <token id="00000140FD8D1150" file="alarm_monitor.c" linenr="13" column="23" str="AlarmMonitor_state_id" scope="00000140FCE98590" type="name" varId="6" variable="00000140FD511DA0" astParent="00000140FD8D0B50" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE98370"/>
+    <token id="00000140FD8D0B50" file="alarm_monitor.c" linenr="13" column="44" str="=" scope="00000140FCE98590" type="op" isAssignmentOp="true" astOperand1="00000140FD8D1150" astOperand2="00000140FD8CEF00" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE98370"/>
+    <token id="00000140FD8CEF00" file="alarm_monitor.c" linenr="13" column="45" str="AlarmMonitor_alarmOFF" scope="00000140FCE98590" type="name" values="00000140FCF014C0" astParent="00000140FD8D0B50" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE98370"/>
+    <token id="00000140FD8CF800" file="alarm_monitor.c" linenr="13" column="66" str=";" scope="00000140FCE98590"/>
+    <token id="00000140FD8CEF60" file="alarm_monitor.c" linenr="24" column="2" str="void" scope="00000140FCE98590" type="name"/>
+    <token id="00000140FD8CE060" file="alarm_monitor.c" linenr="24" column="7" str="AlarmMointorTurnON" scope="00000140FCE98590" type="name" function="00000140FD0E2480"/>
+    <token id="00000140FD8CE0C0" file="alarm_monitor.c" linenr="24" column="25" str="(" scope="00000140FCE98590" link="00000140FD8CF020" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD8CF020" file="alarm_monitor.c" linenr="24" column="26" str=")" scope="00000140FCE98590" link="00000140FD8CE0C0"/>
+    <token id="00000140FD8CF0E0" file="alarm_monitor.c" linenr="24" column="27" str="{" scope="00000140FCE97C00" link="00000140FD8CF980"/>
+    <token id="00000140FD8CF140" file="alarm_monitor.c" linenr="25" column="2" str="AlarmMonitor_state" scope="00000140FCE97C00" type="name" varId="5" variable="00000140FD511FD0" astParent="00000140FD8CF1A0" valueType-type="void" valueType-pointer="1" valueType-reference="None"/>
+    <token id="00000140FD8CF1A0" file="alarm_monitor.c" linenr="25" column="20" str="=" scope="00000140FCE97C00" type="op" isAssignmentOp="true" astOperand1="00000140FD8CF140" astOperand2="00000140FD8CF860" valueType-type="void" valueType-pointer="1" valueType-reference="None"/>
+    <token id="00000140FD8CF860" file="alarm_monitor.c" linenr="25" column="21" str="STATE_AlarmMonitor_alarmON" scope="00000140FCE97C00" type="name" astParent="00000140FD8CF1A0"/>
+    <token id="00000140FD8CF8C0" file="alarm_monitor.c" linenr="25" column="48" str=";" scope="00000140FCE97C00"/>
+    <token id="00000140FD8CF980" file="alarm_monitor.c" linenr="26" column="1" str="}" scope="00000140FCE97C00" link="00000140FD8CF0E0"/>
+    <token id="00000140FD8CFCE0" file="alarm_monitor.c" linenr="33" column="1" str="void" scope="00000140FCE98590" type="name" isExpandedMacro="true"/>
+    <token id="00000140FD8CF9E0" file="alarm_monitor.c" linenr="33" column="1" str="STATE_AlarmMonitor_alarmOFF" scope="00000140FCE98590" type="name" function="00000140FCECF860"/>
+    <token id="00000140FD8CFF80" file="alarm_monitor.c" linenr="33" column="1" str="(" scope="00000140FCE98590" isExpandedMacro="true" link="00000140FD8CF920" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD8CF920" file="alarm_monitor.c" linenr="33" column="1" str=")" scope="00000140FCE98590" isExpandedMacro="true" link="00000140FD8CFF80"/>
+    <token id="00000140FD8CFAA0" file="alarm_monitor.c" linenr="33" column="36" str="{" scope="00000140FCE97F30" link="00000140FD8CFB60"/>
+    <token id="00000140FD8CFD40" file="alarm_monitor.c" linenr="35" column="2" str="AlarmMonitor_state_id" scope="00000140FCE97F30" type="name" varId="6" variable="00000140FD511DA0" astParent="00000140FD8CFB00" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE98370"/>
+    <token id="00000140FD8CFB00" file="alarm_monitor.c" linenr="35" column="23" str="=" scope="00000140FCE97F30" type="op" isAssignmentOp="true" astOperand1="00000140FD8CFD40" astOperand2="00000140FD8CFA40" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE98370"/>
+    <token id="00000140FD8CFA40" file="alarm_monitor.c" linenr="35" column="24" str="AlarmMonitor_alarmOFF" scope="00000140FCE97F30" type="name" values="00000140FCF00EC0" astParent="00000140FD8CFB00" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE98370"/>
+    <token id="00000140FD8CFE00" file="alarm_monitor.c" linenr="35" column="45" str=";" scope="00000140FCE97F30"/>
+    <token id="00000140FD8CFB60" file="alarm_monitor.c" linenr="36" column="1" str="}" scope="00000140FCE97F30" link="00000140FD8CFAA0"/>
+    <token id="00000140FD8CFDA0" file="alarm_monitor.c" linenr="43" column="1" str="void" scope="00000140FCE98590" type="name" isExpandedMacro="true"/>
+    <token id="00000140FD8CFBC0" file="alarm_monitor.c" linenr="43" column="1" str="STATE_AlarmMonitor_alarmON" scope="00000140FCE98590" type="name" function="00000140FCECF900"/>
+    <token id="00000140FD8CFC20" file="alarm_monitor.c" linenr="43" column="1" str="(" scope="00000140FCE98590" isExpandedMacro="true" link="00000140FD8CFEC0" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD8CFEC0" file="alarm_monitor.c" linenr="43" column="1" str=")" scope="00000140FCE98590" isExpandedMacro="true" link="00000140FD8CFC20"/>
+    <token id="00000140FD8CFC80" file="alarm_monitor.c" linenr="43" column="35" str="{" scope="00000140FCE98150" link="00000140FD8D11B0"/>
+    <token id="00000140FD8CFE60" file="alarm_monitor.c" linenr="45" column="2" str="AlarmMonitor_state_id" scope="00000140FCE98150" type="name" varId="6" variable="00000140FD511DA0" astParent="00000140FD8CFF20" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE98370"/>
+    <token id="00000140FD8CFF20" file="alarm_monitor.c" linenr="45" column="23" str="=" scope="00000140FCE98150" type="op" isAssignmentOp="true" astOperand1="00000140FD8CFE60" astOperand2="00000140FD8D1570" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE98370"/>
+    <token id="00000140FD8D1570" file="alarm_monitor.c" linenr="45" column="24" str="AlarmMonitor_alarmON" scope="00000140FCE98150" type="name" values="00000140FCF015C0" astParent="00000140FD8CFF20" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE98370"/>
+    <token id="00000140FD8D0EB0" file="alarm_monitor.c" linenr="45" column="44" str=";" scope="00000140FCE98150"/>
+    <token id="00000140FD8D0670" file="alarm_monitor.c" linenr="48" column="2" str="AlarmStart" scope="00000140FCE98150" type="name" function="00000140FD0E2980" astParent="00000140FD8D03D0"/>
+    <token id="00000140FD8D03D0" file="alarm_monitor.c" linenr="48" column="12" str="(" scope="00000140FCE98150" link="00000140FD8D0A90" astOperand1="00000140FD8D0670" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD8D0A90" file="alarm_monitor.c" linenr="48" column="13" str=")" scope="00000140FCE98150" link="00000140FD8D03D0"/>
+    <token id="00000140FD8D0250" file="alarm_monitor.c" linenr="48" column="14" str=";" scope="00000140FCE98150"/>
+    <token id="00000140FD8D06D0" file="alarm_monitor.c" linenr="49" column="2" str="AlarmMonitor_state" scope="00000140FCE98150" type="name" varId="5" variable="00000140FD511FD0" astParent="00000140FD8D05B0" valueType-type="void" valueType-pointer="1" valueType-reference="None"/>
+    <token id="00000140FD8D05B0" file="alarm_monitor.c" linenr="49" column="20" str="=" scope="00000140FCE98150" type="op" isAssignmentOp="true" astOperand1="00000140FD8D06D0" astOperand2="00000140FD8D0C10" valueType-type="void" valueType-pointer="1" valueType-reference="None"/>
+    <token id="00000140FD8D0C10" file="alarm_monitor.c" linenr="49" column="21" str="STATE_AlarmMonitor_waiting" scope="00000140FCE98150" type="name" astParent="00000140FD8D05B0"/>
+    <token id="00000140FD8D0190" file="alarm_monitor.c" linenr="49" column="48" str=";" scope="00000140FCE98150"/>
+    <token id="00000140FD8D11B0" file="alarm_monitor.c" linenr="50" column="1" str="}" scope="00000140FCE98150" link="00000140FD8CFC80"/>
+    <token id="00000140FD8D04F0" file="alarm_monitor.c" linenr="57" column="1" str="void" scope="00000140FCE98590" type="name" isExpandedMacro="true"/>
+    <token id="00000140FD8D17B0" file="alarm_monitor.c" linenr="57" column="1" str="STATE_AlarmMonitor_waiting" scope="00000140FCE98590" type="name" function="00000140FCECF180"/>
+    <token id="00000140FD8D1330" file="alarm_monitor.c" linenr="57" column="1" str="(" scope="00000140FCE98590" isExpandedMacro="true" link="00000140FD8D0D30" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD8D0D30" file="alarm_monitor.c" linenr="57" column="1" str=")" scope="00000140FCE98590" isExpandedMacro="true" link="00000140FD8D1330"/>
+    <token id="00000140FD8D1630" file="alarm_monitor.c" linenr="57" column="35" str="{" scope="00000140FCE986A0" link="00000140FD8D00D0"/>
+    <token id="00000140FD8D0FD0" file="alarm_monitor.c" linenr="59" column="2" str="AlarmMonitor_state_id" scope="00000140FCE986A0" type="name" varId="6" variable="00000140FD511DA0" astParent="00000140FD8D0CD0" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE98370"/>
+    <token id="00000140FD8D0CD0" file="alarm_monitor.c" linenr="59" column="23" str="=" scope="00000140FCE986A0" type="op" isAssignmentOp="true" astOperand1="00000140FD8D0FD0" astOperand2="00000140FD8D0430" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE98370"/>
+    <token id="00000140FD8D0430" file="alarm_monitor.c" linenr="59" column="24" str="AlarmMonitor_waiting" scope="00000140FCE986A0" type="name" values="00000140FCF00EE0" astParent="00000140FD8D0CD0" valueType-type="int" valueType-sign="signed" valueType-reference="None" valueType-typeScope="00000140FCE98370"/>
+    <token id="00000140FD8D0070" file="alarm_monitor.c" linenr="59" column="44" str=";" scope="00000140FCE986A0"/>
+    <token id="00000140FD8D1810" file="alarm_monitor.c" linenr="62" column="2" str="Delay" scope="00000140FCE986A0" type="name" function="00000140FD0E2D40" astParent="00000140FD8D15D0"/>
+    <token id="00000140FD8D15D0" file="alarm_monitor.c" linenr="62" column="7" str="(" scope="00000140FCE986A0" link="00000140FD8D0D90" astOperand1="00000140FD8D1810" astOperand2="00000140FD8D12D0" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD8D12D0" file="alarm_monitor.c" linenr="62" column="8" str="6000000u" scope="00000140FCE986A0" type="number" isInt="true" isExpandedMacro="true" values="00000140FCF014E0" astParent="00000140FD8D15D0" valueType-type="int" valueType-sign="unsigned" valueType-reference="None"/>
+    <token id="00000140FD8D0D90" file="alarm_monitor.c" linenr="62" column="18" str=")" scope="00000140FCE986A0" link="00000140FD8D15D0"/>
+    <token id="00000140FD8D1450" file="alarm_monitor.c" linenr="62" column="19" str=";" scope="00000140FCE986A0"/>
+    <token id="00000140FD8D1270" file="alarm_monitor.c" linenr="63" column="2" str="AlarmStop" scope="00000140FCE986A0" type="name" function="00000140FD0E2A20" astParent="00000140FD8D02B0"/>
+    <token id="00000140FD8D02B0" file="alarm_monitor.c" linenr="63" column="11" str="(" scope="00000140FCE986A0" link="00000140FD8D1210" astOperand1="00000140FD8D1270" valueType-type="void" valueType-reference="None"/>
+    <token id="00000140FD8D1210" file="alarm_monitor.c" linenr="63" column="12" str=")" scope="00000140FCE986A0" link="00000140FD8D02B0"/>
+    <token id="00000140FD8D1750" file="alarm_monitor.c" linenr="63" column="13" str=";" scope="00000140FCE986A0"/>
+    <token id="00000140FD8D0130" file="alarm_monitor.c" linenr="65" column="2" str="AlarmMonitor_state" scope="00000140FCE986A0" type="name" varId="5" variable="00000140FD511FD0" astParent="00000140FD8D1510" valueType-type="void" valueType-pointer="1" valueType-reference="None"/>
+    <token id="00000140FD8D1510" file="alarm_monitor.c" linenr="65" column="20" str="=" scope="00000140FCE986A0" type="op" isAssignmentOp="true" astOperand1="00000140FD8D0130" astOperand2="00000140FD8D0DF0" valueType-type="void" valueType-pointer="1" valueType-reference="None"/>
+    <token id="00000140FD8D0DF0" file="alarm_monitor.c" linenr="65" column="21" str="STATE_AlarmMonitor_alarmOFF" scope="00000140FCE986A0" type="name" astParent="00000140FD8D1510"/>
+    <token id="00000140FD8D0AF0" file="alarm_monitor.c" linenr="65" column="49" str=";" scope="00000140FCE986A0"/>
+    <token id="00000140FD8D00D0" file="alarm_monitor.c" linenr="66" column="1" str="}" scope="00000140FCE986A0" link="00000140FD8D1630"/>
+  </tokenlist>
+  <scopes>
+    <scope id="00000140FCE98590" type="Global">
+      <functionList>
+        <function id="00000140FD0E2D40" tokenDef="00000140FD6EF060" name="Delay" type="Function">
+          <arg nr="1" variable="00000140FD5127B0"/>
+        </function>
+        <function id="00000140FD0E2700" tokenDef="00000140FD6EFDE0" name="getPressureVal" type="Function"/>
+        <function id="00000140FD0E28E0" tokenDef="00000140FD6EF1E0" name="Set_Alarm_actuator" type="Function">
+          <arg nr="1" variable="00000140FD5122E0"/>
+        </function>
+        <function id="00000140FD0E2340" tokenDef="00000140FD6EFBA0" name="GPIO_INITIALIZATION" type="Function"/>
+        <function id="00000140FD0E23E0" tokenDef="00000140FD6EF5A0" name="GetPressureValue" type="Function">
+          <arg nr="1" variable="00000140FD512900"/>
+        </function>
+        <function id="00000140FD0E2480" tokenDef="00000140FD6EFAE0" name="AlarmMointorTurnON" type="Function"/>
+        <function id="00000140FD0E2980" tokenDef="00000140FD6EF660" name="AlarmStart" type="Function"/>
+        <function id="00000140FD0E2A20" tokenDef="00000140FD8CE240" name="AlarmStop" type="Function"/>
+        <function id="00000140FCECF180" tokenDef="00000140FD8CE1E0" name="STATE_AlarmMonitor_waiting" type="Function"/>
+        <function id="00000140FCECF900" tokenDef="00000140FD8CE360" name="STATE_AlarmMonitor_alarmON" type="Function"/>
+        <function id="00000140FCECF860" tokenDef="00000140FD8CEA20" name="STATE_AlarmMonitor_alarmOFF" type="Function"/>
+      </functionList>
+      <varlist>
+        <var id="00000140FD5120B0"/>
+        <var id="00000140FD511FD0"/>
+        <var id="00000140FD511DA0"/>
+      </varlist>
+    </scope>
+    <scope id="00000140FCE98370" type="Enum" className="AlarmMonitor_states_t" bodyStart="00000140FD8CEFC0" bodyEnd="00000140FD8CF320" nestedIn="00000140FCE98590"/>
+    <scope id="00000140FCE97C00" type="Function" className="AlarmMointorTurnON" bodyStart="00000140FD8CF0E0" bodyEnd="00000140FD8CF980" nestedIn="00000140FCE98590" function="00000140FD0E2480"/>
+    <scope id="00000140FCE97F30" type="Function" className="STATE_AlarmMonitor_alarmOFF" bodyStart="00000140FD8CFAA0" bodyEnd="00000140FD8CFB60" nestedIn="00000140FCE98590" function="00000140FCECF860"/>
+    <scope id="00000140FCE98150" type="Function" className="STATE_AlarmMonitor_alarmON" bodyStart="00000140FD8CFC80" bodyEnd="00000140FD8D11B0" nestedIn="00000140FCE98590" function="00000140FCECF900"/>
+    <scope id="00000140FCE986A0" type="Function" className="STATE_AlarmMonitor_waiting" bodyStart="00000140FD8D1630" bodyEnd="00000140FD8D00D0" nestedIn="00000140FCE98590" function="00000140FCECF180"/>
+  </scopes>
+  <variables>
+    <var id="00000140FD511DA0" nameToken="00000140FD8CF740" typeStartToken="00000140FD8CEAE0" typeEndToken="00000140FD8CEAE0" access="Global" scope="00000140FCE98590" constness="0" isArgument="false" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="00000140FD511FD0" nameToken="00000140FD8CEA80" typeStartToken="00000140FD8CF500" typeEndToken="00000140FD8CF620" access="Global" scope="00000140FCE98590" constness="0" isArgument="false" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="00000140FD5120B0" nameToken="00000140FD8CE8A0" typeStartToken="00000140FD8CE780" typeEndToken="00000140FD8CF2C0" access="Global" scope="00000140FCE98590" constness="0" isArgument="false" isArray="false" isClass="false" isConst="false" isExtern="true" isLocal="false" isPointer="true" isReference="false" isStatic="false"/>
+    <var id="00000140FD5122E0" nameToken="00000140FD6EF780" typeStartToken="00000140FD6EF720" typeEndToken="00000140FD6EF720" access="Argument" scope="0000000000000000" constness="0" isArgument="true" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="00000140FD5127B0" nameToken="00000140FD6EFA20" typeStartToken="00000140FD6EFE40" typeEndToken="00000140FD6EFE40" access="Argument" scope="0000000000000000" constness="0" isArgument="true" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+    <var id="00000140FD512900" nameToken="00000140FD6EFA80" typeStartToken="00000140FD6EF9C0" typeEndToken="00000140FD6EF9C0" access="Argument" scope="0000000000000000" constness="0" isArgument="true" isArray="false" isClass="false" isConst="false" isExtern="false" isLocal="false" isPointer="false" isReference="false" isStatic="false"/>
+  </variables>
+  <valueflow>
+    <values id="00000140FCF01040">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="00000140FCF01560">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="00000140FCF01140">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="00000140FCF014C0">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="00000140FCF00EC0">
+      <value intvalue="2" known="true"/>
+    </values>
+    <values id="00000140FCF015C0">
+      <value intvalue="1" known="true"/>
+    </values>
+    <values id="00000140FCF00EE0">
+      <value intvalue="0" known="true"/>
+    </values>
+    <values id="00000140FCF014E0">
+      <value intvalue="6000000" known="true"/>
+    </values>
+  </valueflow>
+</dump>
+</dumps>

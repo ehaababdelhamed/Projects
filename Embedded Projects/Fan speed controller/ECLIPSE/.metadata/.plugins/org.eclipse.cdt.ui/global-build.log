@@ -1,0 +1,2809 @@
+../applicatin.c: In function 'main':
+../applicatin.c:20: warning: implicit declaration of function 'ADC_init'
+../applicatin.c:20: error: 'INTERNAL' undeclared (first use in this function)
+../applicatin.c:20: error: (Each undeclared identifier is reported only once
+../applicatin.c:20: error: for each function it appears in.)
+../applicatin.c:20: error: 'F_CPU_8' undeclared (first use in this function)
+../applicatin.c:20: error: 'POLLING' undeclared (first use in this function)
+../applicatin.c:21: warning: implicit declaration of function 'DcMotor_init'
+../applicatin.c:22: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:22: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:24: warning: implicit declaration of function 'LM35_getTemperature'
+../applicatin.c:28: warning: implicit declaration of function 'DcMotor_Rotate'
+../applicatin.c:29: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:29: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:31: error: expected '(' before '{' token
+../applicatin.c:33: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:33: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+make: *** [applicatin.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+
+??:??:?? Build Failed. 5 errors, 10 warnings. (took 268ms)
+
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:20: warning: implicit declaration of function 'ADC_init'
+../applicatin.c:20: error: 'INTERNAL' undeclared (first use in this function)
+../applicatin.c:20: error: (Each undeclared identifier is reported only once
+../applicatin.c:20: error: for each function it appears in.)
+../applicatin.c:20: error: 'F_CPU_8' undeclared (first use in this function)
+../applicatin.c:20: error: 'POLLING' undeclared (first use in this function)
+../applicatin.c:21: warning: implicit declaration of function 'DcMotor_init'
+../applicatin.c:22: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:22: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:24: warning: implicit declaration of function 'LM35_getTemperature'
+../applicatin.c:28: warning: implicit declaration of function 'DcMotor_Rotate'
+../applicatin.c:29: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:29: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:31: error: expected '(' before '{' token
+../applicatin.c:33: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:33: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+make: *** [applicatin.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:20: warning: implicit declaration of function 'ADC_init'
+../applicatin.c:20: error: 'INTERNAL' undeclared (first use in this function)
+../applicatin.c:20: error: (Each undeclared identifier is reported only once
+../applicatin.c:20: error: for each function it appears in.)
+../applicatin.c:20: error: 'F_CPU_8' undeclared (first use in this function)
+../applicatin.c:20: error: 'POLLING' undeclared (first use in this function)
+../applicatin.c:21: warning: implicit declaration of function 'DcMotor_init'
+../applicatin.c:22: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:22: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:24: warning: implicit declaration of function 'LM35_getTemperature'
+../applicatin.c:28: warning: implicit declaration of function 'DcMotor_Rotate'
+../applicatin.c:29: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:29: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:31: error: expected '(' before '{' token
+../applicatin.c:33: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:33: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+make: *** [applicatin.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:20: warning: implicit declaration of function 'ADC_init'
+../applicatin.c:20: error: 'INTERNAL' undeclared (first use in this function)
+../applicatin.c:20: error: (Each undeclared identifier is reported only once
+../applicatin.c:20: error: for each function it appears in.)
+../applicatin.c:20: error: 'F_CPU_8' undeclared (first use in this function)
+../applicatin.c:20: error: 'POLLING' undeclared (first use in this function)
+../applicatin.c:21: warning: implicit declaration of function 'DcMotor_init'
+../applicatin.c:22: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:22: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:24: warning: implicit declaration of function 'LM35_getTemperature'
+../applicatin.c:28: warning: implicit declaration of function 'DcMotor_Rotate'
+../applicatin.c:29: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:29: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:31: error: expected '(' before '{' token
+../applicatin.c:33: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:33: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+make: *** [applicatin.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:23: warning: implicit declaration of function 'DcMotor_init'
+../applicatin.c:24: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:24: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:26: warning: implicit declaration of function 'LM35_getTemperature'
+../applicatin.c:30: warning: implicit declaration of function 'DcMotor_Rotate'
+../applicatin.c:31: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:31: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:33: error: expected '(' before '{' token
+../applicatin.c:35: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:35: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+make: *** [applicatin.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:23: warning: implicit declaration of function 'DcMotor_init'
+../applicatin.c:24: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:24: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:26: warning: implicit declaration of function 'LM35_getTemperature'
+../applicatin.c:30: warning: implicit declaration of function 'DcMotor_Rotate'
+../applicatin.c:31: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:31: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:33: error: expected '(' before '{' token
+../applicatin.c:35: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:35: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+make: *** [applicatin.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:23: warning: implicit declaration of function 'DcMotor_init'
+../applicatin.c:24: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:24: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:26: warning: implicit declaration of function 'LM35_getTemperature'
+../applicatin.c:30: warning: implicit declaration of function 'DcMotor_Rotate'
+../applicatin.c:31: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:31: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:33: error: expected '(' before '{' token
+../applicatin.c:35: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:35: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+make: *** [applicatin.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:24: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:24: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:26: warning: implicit declaration of function 'LM35_getTemperature'
+../applicatin.c:31: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:31: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:33: error: expected '(' before '{' token
+../applicatin.c:35: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:35: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+make: *** [applicatin.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:24: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:24: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:26: warning: implicit declaration of function 'LM35_getTemperature'
+../applicatin.c:31: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:31: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:33: error: expected '(' before '{' token
+../applicatin.c:35: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:35: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+make: *** [applicatin.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:24: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:24: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:26: warning: implicit declaration of function 'LM35_getTemperature'
+../applicatin.c:31: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:31: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:33: error: expected '(' before '{' token
+../applicatin.c:35: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:35: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+make: *** [applicatin.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:24: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:24: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:26: warning: implicit declaration of function 'LM35_getTemperature'
+../applicatin.c:31: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:31: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:33: error: expected '(' before '{' token
+../applicatin.c:35: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:35: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+make: *** [applicatin.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:24: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:24: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:26: warning: implicit declaration of function 'LM35_getTemperature'
+../applicatin.c:31: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:31: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:33: error: expected '(' before '{' token
+../applicatin.c:35: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:35: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+make: *** [applicatin.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:24: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:24: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:26: warning: implicit declaration of function 'LM35_getTemperature'
+../applicatin.c:31: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:31: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:33: error: expected '(' before '{' token
+../applicatin.c:35: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:35: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+make: *** [applicatin.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:24: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:24: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:26: warning: implicit declaration of function 'LM35_getTemperature'
+../applicatin.c:31: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:31: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:33: error: expected '(' before '{' token
+../applicatin.c:35: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:35: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+make: *** [applicatin.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:24: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:24: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:26: warning: implicit declaration of function 'LM35_getTemperature'
+../applicatin.c:31: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:31: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+Finished building: ../applicatin.c
+ 
+Building file: ../dc_motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"dc_motor.d" -MT"dc_motor.o" -c -o "dc_motor.o" "../dc_motor.c"
+Finished building: ../dc_motor.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9220 bytes (56.3% Full)
+(.text + .data + .bootloader)
+
+Data:        288 bytes (28.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9220 bytes (56.3% Full)
+(.text + .data + .bootloader)
+
+Data:        288 bytes (28.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:24: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:24: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:26: warning: implicit declaration of function 'LM35_getTemperature'
+../applicatin.c:31: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:31: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:33: error: expected '(' before '{' token
+../applicatin.c:35: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:35: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+make: *** [applicatin.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:24: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:24: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:26: warning: implicit declaration of function 'LM35_getTemperature'
+../applicatin.c:31: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:31: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:35: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:35: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:39: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:39: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:43: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:43: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:46: error: expected declaration or statement at end of input
+make: *** [applicatin.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:24: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:24: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:26: warning: implicit declaration of function 'LM35_getTemperature'
+../applicatin.c:31: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:31: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:35: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:35: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:39: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:39: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:43: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:43: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+Finished building: ../applicatin.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9348 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9348 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:19: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:19: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:21: warning: implicit declaration of function 'LM35_getTemperature'
+../applicatin.c:26: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:26: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:30: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:30: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:34: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:34: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:38: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:38: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+Finished building: ../applicatin.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9348 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9348 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:19: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:19: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:21: warning: implicit declaration of function 'LM35_getTemperature'
+../applicatin.c:26: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:26: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:30: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:30: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:34: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:34: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:38: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:38: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+Finished building: ../applicatin.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:145: warning: implicit declaration of function 'itoa'
+Finished building: ../lcd.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9348 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9348 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9348 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:19: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:19: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:21: warning: implicit declaration of function 'LM35_getTemperature'
+../applicatin.c:26: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:26: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:30: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:30: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:34: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:34: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:38: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:38: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+Finished building: ../applicatin.c
+ 
+Building file: ../dc_motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"dc_motor.d" -MT"dc_motor.o" -c -o "dc_motor.o" "../dc_motor.c"
+Finished building: ../dc_motor.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9348 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:19: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:19: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:21: warning: implicit declaration of function 'LM35_getTemperature'
+../applicatin.c:26: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:26: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:30: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:30: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:34: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:34: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:38: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:38: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+Finished building: ../applicatin.c
+ 
+Building file: ../dc_motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"dc_motor.d" -MT"dc_motor.o" -c -o "dc_motor.o" "../dc_motor.c"
+Finished building: ../dc_motor.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9348 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:19: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:19: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:21: warning: implicit declaration of function 'LM35_getTemperature'
+../applicatin.c:26: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:26: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:30: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:30: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:34: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:34: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:38: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:38: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+Finished building: ../applicatin.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9348 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:19: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:19: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:21: warning: implicit declaration of function 'LM35_getTemperature'
+../applicatin.c:26: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:26: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:29: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:29: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:32: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:32: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:35: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:35: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+Finished building: ../applicatin.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9314 bytes (56.8% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9314 bytes (56.8% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9314 bytes (56.8% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:20: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:20: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:22: warning: implicit declaration of function 'LM35_getTemperature'
+../applicatin.c:26: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:26: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:29: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:29: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:32: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:32: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:35: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:35: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+Finished building: ../applicatin.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9318 bytes (56.9% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9318 bytes (56.9% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+Finished building: ../pwm.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9318 bytes (56.9% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+../pwm.c: In function 'PWM_Timer0_Start':
+../pwm.c:32: error: called object '(unsigned int)duty_cycle * 255u / 100u' is not a function
+make: *** [pwm.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+../pwm.c: In function 'PWM_Timer0_Start':
+../pwm.c:32: error: called object '(unsigned int)duty_cycle * 255u / 100u' is not a function
+make: *** [pwm.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+../pwm.c: In function 'PWM_Timer0_Start':
+../pwm.c:32: error: called object '(unsigned int)duty_cycle * 255u / 100u' is not a function
+make: *** [pwm.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+Finished building: ../pwm.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9324 bytes (56.9% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9324 bytes (56.9% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9324 bytes (56.9% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../dc_motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"dc_motor.d" -MT"dc_motor.o" -c -o "dc_motor.o" "../dc_motor.c"
+Finished building: ../dc_motor.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9324 bytes (56.9% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:20: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:20: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:22: warning: implicit declaration of function 'LM35_getTemperature'
+../applicatin.c:26: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:26: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:29: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:29: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:32: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:32: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:35: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:35: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+Finished building: ../applicatin.c
+ 
+Building file: ../dc_motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"dc_motor.d" -MT"dc_motor.o" -c -o "dc_motor.o" "../dc_motor.c"
+Finished building: ../dc_motor.c
+ 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+Finished building: ../pwm.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9324 bytes (56.9% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+Finished building: ../pwm.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9344 bytes (57.0% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9344 bytes (57.0% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+Finished building: ../pwm.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9344 bytes (57.0% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9344 bytes (57.0% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+Finished building: ../pwm.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9338 bytes (57.0% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9338 bytes (57.0% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+Finished building: ../pwm.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9560 bytes (58.3% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+../pwm.c: In function 'PWM_Timer0_Start':
+../pwm.c:32: error: expected expression before '/' token
+make: *** [pwm.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+Finished building: ../pwm.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9344 bytes (57.0% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9344 bytes (57.0% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+../pwm.c: In function 'PWM_Timer0_Start':
+../pwm.c:33: error: called object '(long unsigned int)duty_cycle * 255ul / 100ul' is not a function
+make: *** [pwm.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+../pwm.c: In function 'PWM_Timer0_Start':
+../pwm.c:33: error: called object '(unsigned int)duty_cycle * 255u / 100u' is not a function
+make: *** [pwm.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+../pwm.c:24: error: conflicting types for 'PWM_Timer0_Start'
+../pwm.h:27: error: previous declaration of 'PWM_Timer0_Start' was here
+../pwm.c: In function 'PWM_Timer0_Start':
+../pwm.c:33: error: called object '(unsigned int)duty_cycle * 255u / 100u' is not a function
+make: *** [pwm.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+../pwm.c: In function 'PWM_Timer0_Start':
+../pwm.c:33: error: called object '(unsigned int)duty_cycle * 255u / 100u' is not a function
+make: *** [pwm.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+../pwm.c: In function 'PWM_Timer0_Start':
+../pwm.c:33: error: called object '(unsigned int)duty_cycle * 255u / 100u' is not a function
+make: *** [pwm.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+Finished building: ../pwm.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9318 bytes (56.9% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+Finished building: ../pwm.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9318 bytes (56.9% Full)
+(.text + .data + .bootloader)
+
+Data:        300 bytes (29.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:20: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:20: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:21: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:21: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:23: warning: implicit declaration of function 'LM35_getTemperature'
+../applicatin.c:27: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:27: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:30: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:30: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:33: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:33: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+../applicatin.c:36: warning: passing argument 1 of 'LCD_displayStringRowColumn' makes integer from pointer without a cast
+../applicatin.c:36: warning: passing argument 3 of 'LCD_displayStringRowColumn' makes pointer from integer without a cast
+Finished building: ../applicatin.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9330 bytes (56.9% Full)
+(.text + .data + .bootloader)
+
+Data:        298 bytes (29.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9330 bytes (56.9% Full)
+(.text + .data + .bootloader)
+
+Data:        298 bytes (29.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:21: error: expected ')' before ';' token
+../applicatin.c:38: error: expected ';' before '}' token
+../applicatin.c:14: warning: unused variable 'tempratureValue'
+make: *** [applicatin.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:23: warning: implicit declaration of function 'LM35_getTemperature'
+Finished building: ../applicatin.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9330 bytes (56.9% Full)
+(.text + .data + .bootloader)
+
+Data:        298 bytes (29.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9330 bytes (56.9% Full)
+(.text + .data + .bootloader)
+
+Data:        298 bytes (29.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:23: warning: implicit declaration of function 'LM35_getTemperature'
+Finished building: ../applicatin.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9330 bytes (56.9% Full)
+(.text + .data + .bootloader)
+
+Data:        298 bytes (29.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../dc_motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"dc_motor.d" -MT"dc_motor.o" -c -o "dc_motor.o" "../dc_motor.c"
+Finished building: ../dc_motor.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9324 bytes (56.9% Full)
+(.text + .data + .bootloader)
+
+Data:        298 bytes (29.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:23: warning: implicit declaration of function 'LM35_getTemperature'
+Finished building: ../applicatin.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9328 bytes (56.9% Full)
+(.text + .data + .bootloader)
+
+Data:        298 bytes (29.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9328 bytes (56.9% Full)
+(.text + .data + .bootloader)
+
+Data:        298 bytes (29.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:23: warning: implicit declaration of function 'LM35_getTemperature'
+Finished building: ../applicatin.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9350 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:        320 bytes (31.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9350 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:        320 bytes (31.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:23: warning: implicit declaration of function 'LM35_getTemperature'
+Finished building: ../applicatin.c
+ 
+Building file: ../dc_motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"dc_motor.d" -MT"dc_motor.o" -c -o "dc_motor.o" "../dc_motor.c"
+../dc_motor.c: In function 'DcMotor_Rotate':
+../dc_motor.c:43: error: 'CW' undeclared (first use in this function)
+../dc_motor.c:43: error: (Each undeclared identifier is reported only once
+../dc_motor.c:43: error: for each function it appears in.)
+../dc_motor.c:47: error: 'ACW' undeclared (first use in this function)
+../dc_motor.c:38: warning: enumeration value 'ON_CW' not handled in switch
+../dc_motor.c:38: warning: enumeration value 'ON_ACW' not handled in switch
+make: *** [dc_motor.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../dc_motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"dc_motor.d" -MT"dc_motor.o" -c -o "dc_motor.o" "../dc_motor.c"
+../dc_motor.c: In function 'DcMotor_Rotate':
+../dc_motor.c:43: error: 'CW' undeclared (first use in this function)
+../dc_motor.c:43: error: (Each undeclared identifier is reported only once
+../dc_motor.c:43: error: for each function it appears in.)
+../dc_motor.c:47: error: 'ACW' undeclared (first use in this function)
+../dc_motor.c:38: warning: enumeration value 'ON_CW' not handled in switch
+../dc_motor.c:38: warning: enumeration value 'ON_ACW' not handled in switch
+make: *** [dc_motor.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../dc_motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"dc_motor.d" -MT"dc_motor.o" -c -o "dc_motor.o" "../dc_motor.c"
+Finished building: ../dc_motor.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9350 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:        320 bytes (31.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9350 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:        320 bytes (31.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9350 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:        320 bytes (31.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9350 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:        320 bytes (31.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:31: warning: implicit declaration of function 'LM35_getTemperature'
+Finished building: ../applicatin.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9350 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:        320 bytes (31.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9350 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:        320 bytes (31.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9350 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:        320 bytes (31.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:31: warning: implicit declaration of function 'LM35_getTemperature'
+Finished building: ../applicatin.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9350 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:        320 bytes (31.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9350 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:        320 bytes (31.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9350 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:        320 bytes (31.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:30: warning: implicit declaration of function 'LM35_getTemperature'
+Finished building: ../applicatin.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9326 bytes (56.9% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9326 bytes (56.9% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+Finished building: ../adc.c
+ 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:30: warning: implicit declaration of function 'LM35_getTemperature'
+Finished building: ../applicatin.c
+ 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9346 bytes (57.0% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9346 bytes (57.0% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+../adc.c: In function 'ADC_init':
+../adc.c:37: error: called object '64' is not a function
+make: *** [adc.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+../adc.c: In function 'ADC_init':
+../adc.c:37: error: called object '64' is not a function
+make: *** [adc.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+Finished building: ../adc.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9348 bytes (57.1% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+../adc.c: In function 'ADC_init':
+../adc.c:34: warning: overflow in implicit constant conversion
+Finished building: ../adc.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9346 bytes (57.0% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9346 bytes (57.0% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+Finished building: ../adc.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9374 bytes (57.2% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9374 bytes (57.2% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9374 bytes (57.2% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9374 bytes (57.2% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9374 bytes (57.2% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:30: warning: implicit declaration of function 'LM35_getTemperature'
+Finished building: ../applicatin.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9380 bytes (57.3% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:30: warning: implicit declaration of function 'LM35_getTemperature'
+Finished building: ../applicatin.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9382 bytes (57.3% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:30: warning: implicit declaration of function 'LM35_getTemperature'
+Finished building: ../applicatin.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9374 bytes (57.2% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:30: warning: implicit declaration of function 'LM35_getTemperature'
+Finished building: ../applicatin.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9382 bytes (57.3% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9382 bytes (57.3% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+../adc.c:30: error: conflicting types for 'ADC_init'
+../adc.h:50: error: previous declaration of 'ADC_init' was here
+make: *** [adc.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+Finished building: ../adc.c
+ 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:30: warning: implicit declaration of function 'LM35_getTemperature'
+Finished building: ../applicatin.c
+ 
+Building file: ../dc_motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"dc_motor.d" -MT"dc_motor.o" -c -o "dc_motor.o" "../dc_motor.c"
+Finished building: ../dc_motor.c
+ 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:145: warning: implicit declaration of function 'itoa'
+Finished building: ../lcd.c
+ 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+Finished building: ../pwm.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9382 bytes (57.3% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9382 bytes (57.3% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9382 bytes (57.3% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+Finished building: ../adc.c
+ 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:30: warning: implicit declaration of function 'LM35_getTemperature'
+Finished building: ../applicatin.c
+ 
+Building file: ../dc_motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"dc_motor.d" -MT"dc_motor.o" -c -o "dc_motor.o" "../dc_motor.c"
+Finished building: ../dc_motor.c
+ 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:145: warning: implicit declaration of function 'itoa'
+Finished building: ../lcd.c
+ 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+Finished building: ../pwm.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9412 bytes (57.4% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:30: warning: implicit declaration of function 'LM35_getTemperature'
+Finished building: ../applicatin.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9410 bytes (57.4% Full)
+(.text + .data + .bootloader)
+
+Data:        308 bytes (30.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9410 bytes (57.4% Full)
+(.text + .data + .bootloader)
+
+Data:        308 bytes (30.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9410 bytes (57.4% Full)
+(.text + .data + .bootloader)
+
+Data:        308 bytes (30.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9410 bytes (57.4% Full)
+(.text + .data + .bootloader)
+
+Data:        308 bytes (30.1% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:30: warning: implicit declaration of function 'LM35_getTemperature'
+Finished building: ../applicatin.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9412 bytes (57.4% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9412 bytes (57.4% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Building file: ../adc.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"adc.d" -MT"adc.o" -c -o "adc.o" "../adc.c"
+Finished building: ../adc.c
+ 
+Building file: ../applicatin.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"applicatin.d" -MT"applicatin.o" -c -o "applicatin.o" "../applicatin.c"
+../applicatin.c: In function 'main':
+../applicatin.c:30: warning: implicit declaration of function 'LM35_getTemperature'
+Finished building: ../applicatin.c
+ 
+Building file: ../dc_motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"dc_motor.d" -MT"dc_motor.o" -c -o "dc_motor.o" "../dc_motor.c"
+Finished building: ../dc_motor.c
+ 
+Building file: ../gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"gpio.d" -MT"gpio.o" -c -o "gpio.o" "../gpio.c"
+Finished building: ../gpio.c
+ 
+Building file: ../lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"lcd.d" -MT"lcd.o" -c -o "lcd.o" "../lcd.c"
+In file included from ../lcd.c:13:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../lcd.c: In function 'LCD_intgerToString':
+../lcd.c:145: warning: implicit declaration of function 'itoa'
+Finished building: ../lcd.c
+ 
+Building file: ../lm35_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"lm35_sensor.d" -MT"lm35_sensor.o" -c -o "lm35_sensor.o" "../lm35_sensor.c"
+Finished building: ../lm35_sensor.c
+ 
+Building file: ../pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"pwm.d" -MT"pwm.o" -c -o "pwm.o" "../pwm.c"
+Finished building: ../pwm.c
+ 
+Building target: MiniProject3.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,MiniProject3.map -mmcu=atmega16 -o "MiniProject3.elf"  ./adc.o ./applicatin.o ./dc_motor.o ./gpio.o ./lcd.o ./lm35_sensor.o ./pwm.o   
+Finished building target: MiniProject3.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S MiniProject3.elf  >"MiniProject3.lss"
+Finished building: MiniProject3.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9412 bytes (57.4% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9412 bytes (57.4% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9412 bytes (57.4% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+??:??:?? **** Incremental Build of configuration Debug for project MiniProject3 ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 MiniProject3.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:    9412 bytes (57.4% Full)
+(.text + .data + .bootloader)
+
+Data:        310 bytes (30.3% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
