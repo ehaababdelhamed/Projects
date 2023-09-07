@@ -1,0 +1,606 @@
+??:??:?? **** Rebuild of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:85:4: error: too few arguments to function 'Delete_customer'
+    Delete_customer();
+    ^~~~~~~~~~~~~~~
+..\main.c:43:6: note: declared here
+ void Delete_customer(int ID){
+      ^~~~~~~~~~~~~~~
+..\main.c:93:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
+    scanf("%f",&money);
+           ~^  ~~~~~~
+           %d
+..\main.c:93:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
+    scanf("%f",&money);
+           ~^  ~~~~~~
+           %d
+..\main.c:97:3: error: case label not within a switch statement
+   case 6:
+   ^~~~
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:93:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
+    scanf("%f",&money);
+           ~^  ~~~~~~
+           %d
+..\main.c:93:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
+    scanf("%f",&money);
+           ~^  ~~~~~~
+           %d
+..\main.c:97:3: error: case label not within a switch statement
+   case 6:
+   ^~~~
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:93:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
+    scanf("%f",&money);
+           ~^  ~~~~~~
+           %d
+..\main.c:93:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
+    scanf("%f",&money);
+           ~^  ~~~~~~
+           %d
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:93:12: warning: unknown conversion type character 'L' in format [-Wformat=]
+    scanf("%Lf",&money);
+            ^
+..\main.c:93:10: warning: too many arguments for format [-Wformat-extra-args]
+    scanf("%Lf",&money);
+          ^~~~~
+..\main.c:93:12: warning: unknown conversion type character 'L' in format [-Wformat=]
+    scanf("%Lf",&money);
+            ^
+..\main.c:93:10: warning: too many arguments for format [-Wformat-extra-args]
+    scanf("%Lf",&money);
+          ^~~~~
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:93:13: warning: format '%lf' expects argument of type 'double *', but argument 2 has type 'int *' [-Wformat=]
+    scanf("%lf",&money);
+           ~~^  ~~~~~~
+           %d
+..\main.c:93:13: warning: format '%lf' expects argument of type 'double *', but argument 2 has type 'int *' [-Wformat=]
+    scanf("%lf",&money);
+           ~~^  ~~~~~~
+           %d
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:93:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
+    scanf("%f",&money);
+           ~^  ~~~~~~
+           %d
+..\main.c:93:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'int *' [-Wformat=]
+    scanf("%f",&money);
+           ~^  ~~~~~~
+           %d
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'main':
+..\main.c:93:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double *' [-Wformat=]
+    scanf("%f",&money);
+           ~^  ~~~~~~
+           %lf
+..\main.c:93:12: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double *' [-Wformat=]
+    scanf("%f",&money);
+           ~^  ~~~~~~
+           %lf
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+Info: Nothing to build for BankDateBase
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file BankDateBase.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -o BankDateBase.exe main.o 
+C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file BankDateBase.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -o BankDateBase.exe main.o 
+Info: Nothing to build for BankDateBase
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file BankDateBase.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+Info: Nothing to build for BankDateBase
+Info: Nothing to build for BankDateBase
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'create_new_customer':
+..\main.c:34:27: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  customer *New=(customer*)malloc(sizeof(customer));
+                           ^~~~~~
+..\main.c:34:27: warning: incompatible implicit declaration of built-in function 'malloc'
+..\main.c:34:27: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+..\main.c:10:1:
++#include <stdlib.h>
+ 
+..\main.c:34:27:
+  customer *New=(customer*)malloc(sizeof(customer));
+                           ^~~~~~
+..\main.c:40:11: warning: format '%lf' expects argument of type 'double *', but argument 2 has type 'double' [-Wformat=]
+  scanf("%lf",New->cash);
+         ~~^  ~~~~~~~~~
+..\main.c:40:11: warning: format '%lf' expects argument of type 'double *', but argument 2 has type 'double' [-Wformat=]
+..\main.c:42:11: warning: format '%lf' expects argument of type 'double *', but argument 2 has type 'char *' [-Wformat=]
+  scanf("%lf",New->type);
+         ~~^  ~~~~~~~~~
+         %c
+..\main.c:42:11: warning: format '%lf' expects argument of type 'double *', but argument 2 has type 'char *' [-Wformat=]
+  scanf("%lf",New->type);
+         ~~^  ~~~~~~~~~
+         %c
+..\main.c:48:9: error: 'CrruentCrruent' undeclared (first use in this function); did you mean 'Crruent'?
+   while(CrruentCrruent->next!=NULL){
+         ^~~~~~~~~~~~~~
+         Crruent
+..\main.c:48:9: note: each undeclared identifier is reported only once for each function it appears in
+..\main.c:35:12: warning: variable 'Crruent' set but not used [-Wunused-but-set-variable]
+  customer *Crruent=(customer*)malloc(sizeof(customer));
+            ^~~~~~~
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'create_new_customer':
+..\main.c:34:27: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+  customer *New=(customer*)malloc(sizeof(customer));
+                           ^~~~~~
+..\main.c:34:27: warning: incompatible implicit declaration of built-in function 'malloc'
+..\main.c:34:27: note: include '<stdlib.h>' or provide a declaration of 'malloc'
+..\main.c:10:1:
++#include <stdlib.h>
+ 
+..\main.c:34:27:
+  customer *New=(customer*)malloc(sizeof(customer));
+                           ^~~~~~
+..\main.c:40:11: warning: format '%lf' expects argument of type 'double *', but argument 2 has type 'double' [-Wformat=]
+  scanf("%lf",New->cash);
+         ~~^  ~~~~~~~~~
+..\main.c:40:11: warning: format '%lf' expects argument of type 'double *', but argument 2 has type 'double' [-Wformat=]
+gcc -o BankDateBase.exe main.o 
+Info: Nothing to build for BankDateBase
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'create_new_customer':
+..\main.c:41:11: warning: format '%lf' expects argument of type 'double *', but argument 2 has type 'double' [-Wformat=]
+  scanf("%lf",New->cash);
+         ~~^  ~~~~~~~~~
+..\main.c:41:11: warning: format '%lf' expects argument of type 'double *', but argument 2 has type 'double' [-Wformat=]
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'create_new_customer':
+..\main.c:41:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+  scanf("%f",New->cash);
+         ~^  ~~~~~~~~~
+..\main.c:41:10: warning: format '%f' expects argument of type 'float *', but argument 2 has type 'double' [-Wformat=]
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'create_new_customer':
+..\main.c:41:10: warning: unknown conversion type character 'L' in format [-Wformat=]
+  scanf("%Lf",New->cash);
+          ^
+..\main.c:41:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%Lf",New->cash);
+        ^~~~~
+..\main.c:41:10: warning: unknown conversion type character 'L' in format [-Wformat=]
+  scanf("%Lf",New->cash);
+          ^
+..\main.c:41:8: warning: too many arguments for format [-Wformat-extra-args]
+  scanf("%Lf",New->cash);
+        ^~~~~
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'create_new_customer':
+..\main.c:41:11: warning: format '%lf' expects argument of type 'double *', but argument 2 has type 'double' [-Wformat=]
+  scanf("%lf",New->cash);
+         ~~^  ~~~~~~~~~
+..\main.c:41:11: warning: format '%lf' expects argument of type 'double *', but argument 2 has type 'double' [-Wformat=]
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+Info: Nothing to build for BankDateBase
+Info: Nothing to build for BankDateBase
+Info: Nothing to build for BankDateBase
+Info: Nothing to build for BankDateBase
+Info: Nothing to build for BankDateBase
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file BankDateBase.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -o BankDateBase.exe main.o 
+Info: Nothing to build for BankDateBase
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'create_new_customer':
+..\main.c:43:11: warning: format '%lf' expects argument of type 'double *', but argument 2 has type 'char (*)[10]' [-Wformat=]
+  scanf("%lf",&New->type);
+         ~~^  ~~~~~~~~~~
+..\main.c:43:11: warning: format '%lf' expects argument of type 'double *', but argument 2 has type 'char (*)[10]' [-Wformat=]
+gcc -o BankDateBase.exe main.o 
+C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file BankDateBase.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'create_new_customer':
+..\main.c:43:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[10]' [-Wformat=]
+  scanf("%s",&New->type);
+         ~^  ~~~~~~~~~~
+..\main.c:43:10: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[10]' [-Wformat=]
+gcc -o BankDateBase.exe main.o 
+Info: Nothing to build for BankDateBase
+Info: Nothing to build for BankDateBase
+Info: Nothing to build for BankDateBase
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'create_new_customer':
+..\main.c:43:11: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[10]' [-Wformat=]
+  scanf(" %s",&New->type);
+          ~^  ~~~~~~~~~~
+..\main.c:43:11: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char (*)[10]' [-Wformat=]
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+Info: Nothing to build for BankDateBase
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file BankDateBase.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'Print_customer_date':
+..\main.c:75:71: error: expected ';' before '}' token
+   printf("********************************************************\n")
+                                                                       ^
+                                                                       ;
+..\main.c:77:2:
+  }
+  ~                                                                     
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'Print_customer_date':
+..\main.c:76:3: warning: implicit declaration of function 'sleep'; did you mean '_sleep'? [-Wimplicit-function-declaration]
+   sleep(10);
+   ^~~~~
+   _sleep
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'Print_customer_date':
+..\main.c:76:3: warning: '_sleep' is deprecated [-Wdeprecated-declarations]
+   _sleep(10);
+   ^~~~~~
+In file included from ..\main.c:10:
+C:/MinGW/x86_64-w64-mingw32/include/stdlib.h:659:24: note: declared here
+   _CRTIMP void __cdecl _sleep(unsigned long _Duration) __MINGW_ATTRIB_DEPRECATED;
+                        ^~~~~~
+gcc -o BankDateBase.exe main.o 
+Info: Nothing to build for BankDateBase
+Info: Nothing to build for BankDateBase
+Info: Nothing to build for BankDateBase
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+Info: Nothing to build for BankDateBase
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'Print_customer_date':
+..\main.c:79:6: warning: unused variable 'i' [-Wunused-variable]
+  int i;
+      ^
+gcc -o BankDateBase.exe main.o 
+C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file BankDateBase.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+Info: Nothing to build for BankDateBase
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+Info: Nothing to build for BankDateBase
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'edit_customer':
+..\main.c:77:11: error: both 'unsigned' and 'double' in declaration specifiers
+  unsigned double money=0;
+           ^~~~~~
+..\main.c:94:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'char *' [-Wformat=]
+   scanf("%d",&option);
+          ~^  ~~~~~~~
+          %c
+..\main.c:94:11: warning: format '%d' expects argument of type 'int *', but argument 2 has type 'char *' [-Wformat=]
+   scanf("%d",&option);
+          ~^  ~~~~~~~
+          %c
+..\main.c:125:14: warning: format '%lf' expects argument of type 'double *', but argument 2 has type 'unsigned int *' [-Wformat=]
+     scanf("%lf",&money);
+            ~~^  ~~~~~~
+            %d
+..\main.c:125:14: warning: format '%lf' expects argument of type 'double *', but argument 2 has type 'unsigned int *' [-Wformat=]
+     scanf("%lf",&money);
+            ~~^  ~~~~~~
+            %d
+..\main.c:137:13: warning: format '%lf' expects argument of type 'double *', but argument 2 has type 'unsigned int *' [-Wformat=]
+    scanf("%lf",&money);
+           ~~^  ~~~~~~
+           %d
+..\main.c:137:13: warning: format '%lf' expects argument of type 'double *', but argument 2 has type 'unsigned int *' [-Wformat=]
+    scanf("%lf",&money);
+           ~~^  ~~~~~~
+           %d
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'edit_customer':
+..\main.c:77:11: error: both 'unsigned' and 'double' in declaration specifiers
+  unsigned double money=0;
+           ^~~~~~
+..\main.c:125:14: warning: format '%lf' expects argument of type 'double *', but argument 2 has type 'unsigned int *' [-Wformat=]
+     scanf("%lf",&money);
+            ~~^  ~~~~~~
+            %d
+..\main.c:125:14: warning: format '%lf' expects argument of type 'double *', but argument 2 has type 'unsigned int *' [-Wformat=]
+     scanf("%lf",&money);
+            ~~^  ~~~~~~
+            %d
+..\main.c:137:13: warning: format '%lf' expects argument of type 'double *', but argument 2 has type 'unsigned int *' [-Wformat=]
+    scanf("%lf",&money);
+           ~~^  ~~~~~~
+           %d
+..\main.c:137:13: warning: format '%lf' expects argument of type 'double *', but argument 2 has type 'unsigned int *' [-Wformat=]
+    scanf("%lf",&money);
+           ~~^  ~~~~~~
+           %d
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+Info: Nothing to build for BankDateBase
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file BankDateBase.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file BankDateBase.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'Delete_customer':
+..\main.c:180:12: warning: variable 'Pervious' set but not used [-Wunused-but-set-variable]
+  customer *Pervious=(customer*)malloc(sizeof(customer));
+            ^~~~~~~~
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+Info: Nothing to build for BankDateBase
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file BankDateBase.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -o BankDateBase.exe main.o 
+Info: Nothing to build for BankDateBase
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+C:/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe: cannot open output file BankDateBase.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+..\main.c: In function 'PrintMainOption':
+..\main.c:34:2: warning: implicit declaration of function 'pirntf'; did you mean 'printf'? [-Wimplicit-function-declaration]
+  pirntf("6-Print all customers date\n");
+  ^~~~~~
+  printf
+gcc -o BankDateBase.exe main.o 
+main.o: In function `PrintMainOption':
+D:\work space\c workspace\Bank database\BankDateBase\Debug/../main.c:34: undefined reference to `pirntf'
+collect2.exe: error: ld returned 1 exit status
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+Info: Nothing to build for BankDateBase
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+Info: Nothing to build for BankDateBase
+??:??:?? **** Incremental Build of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+Info: Nothing to build for BankDateBase
+??:??:?? **** Rebuild of configuration Debug for project BankDateBase ****
+Info: Internal Builder is used for build
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -o main.o "..\\main.c" 
+gcc -o BankDateBase.exe main.o 
+??:??:?? **** Build of configuration Debug for project ehaab ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: ehaab.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,ehaab.map -mmcu=atmega16 -o "ehaab.elf"  ./main.o   
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr5/crtm16.o:(.init9+0x0): undefined reference to `main'
+make: *** [ehaab.elf] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+Info: Nothing to build for BankDateBase
+??:??:?? **** Incremental Build of configuration Debug for project ehaab ****
+make all 
+Building file: ../main.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega16 -DF_CPU=1000000UL -MMD -MP -MF"main.d" -MT"main.o" -c -o "main.o" "../main.c"
+Finished building: ../main.c
+ 
+Building target: ehaab.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,ehaab.map -mmcu=atmega16 -o "ehaab.elf"  ./main.o   
+Finished building target: ehaab.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S ehaab.elf  >"ehaab.lss"
+Finished building: ehaab.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega16 ehaab.elf
+AVR Memory Usage
+----------------
+Device: atmega16
+
+Program:     130 bytes (0.8% Full)
+(.text + .data + .bootloader)
+
+Data:          0 bytes (0.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
